@@ -34,12 +34,9 @@ namespace TechXpress.DAL.Data
                 .WithOne(a => a.Order)
                 .HasForeignKey<Order>(a => a.ShoppingCart_ID);
 
-            modelBuilder.Entity<Product>()
-                .HasOne(p => p.Category)
-                .WithMany(c => c.Products)
-                .HasForeignKey(p => p.CategoryName);
+        
 
-           
+
 
             base.OnModelCreating(modelBuilder);
 

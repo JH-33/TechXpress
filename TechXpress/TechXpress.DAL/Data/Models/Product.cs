@@ -19,6 +19,9 @@ namespace TechXpress.DAL.Data.Models
         public ICollection<Review>? Reviews { get; set; }
 
         public Category? Category { get; set; }
-        public string? CategoryName { get; set; }
+        public string? CatName { get; set; }
+
+        public ShoppingCart? ShoppingCart { get; set; }
+        public int? Cart_ID { get; set; }
     }
 }

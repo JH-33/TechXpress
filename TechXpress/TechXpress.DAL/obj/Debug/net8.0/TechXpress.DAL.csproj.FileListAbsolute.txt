@@ -12,3 +12,4 @@ E:\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\refint\TechXpress.DAL.d
 E:\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.pdb
 E:\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.genruntimeconfig.cache
 E:\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\ref\TechXpress.DAL.dll
+E:\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.sourcelink.json

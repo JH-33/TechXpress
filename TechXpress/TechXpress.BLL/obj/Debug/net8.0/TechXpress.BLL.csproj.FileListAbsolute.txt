@@ -13,3 +13,4 @@ E:\TechXpress\TechXpress\TechXpress.BLL\obj\Debug\net8.0\TechXpress.BLL.dll
 E:\TechXpress\TechXpress\TechXpress.BLL\obj\Debug\net8.0\refint\TechXpress.BLL.dll
 E:\TechXpress\TechXpress\TechXpress.BLL\obj\Debug\net8.0\TechXpress.BLL.pdb
 E:\TechXpress\TechXpress\TechXpress.BLL\obj\Debug\net8.0\ref\TechXpress.BLL.dll
+E:\TechXpress\TechXpress\TechXpress.BLL\obj\Debug\net8.0\TechXpress.BLL.sourcelink.json

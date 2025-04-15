@@ -19,5 +19,7 @@ namespace TechXpress.DAL.Data.Models
 
         public Order? Order { get; set; }
         public int? Order_ID { get; set; }
+
+        public ICollection<Product> Products { get; set; }
     }
 }
