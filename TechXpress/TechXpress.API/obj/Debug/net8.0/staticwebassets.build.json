@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "3sM5A5FYyrn9gPgZA/qSTnun9t2LUmrxW2hMYV4TZjw=",
+  "Hash": "V/k8ikod4mZueTn3ZXsWpqpJ8anrwELI2lCUwlisl2Y=",
   "Source": "TechXpress.API",
   "BasePath": "_content/TechXpress.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

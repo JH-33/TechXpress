@@ -10,15 +10,16 @@ namespace TechXpress.DAL.Data.Models
 {
     public class ShoppingCart
     {
-        [Key] public int ShoppingCart_ID { get; set; }
+        [Key] 
+        public int ShoppingCart_ID { get; set; }
         public int NumberofItems { get; set; }
         public string? CreatedDate { get; set; }
+        public string? UserID { get; set; }
+        public ApplicationUser? User { get; set; }
 
-        public User? User { get; set; }
-        public int? UserID { get; set; }
-
-        public Order? Order { get; set; }
         public int? Order_ID { get; set; }
+        public Order? Order { get; set; }
+        
 
         public ICollection<Product> Products { get; set; }
     }

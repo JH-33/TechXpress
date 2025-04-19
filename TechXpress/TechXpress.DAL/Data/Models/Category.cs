@@ -10,10 +10,13 @@ namespace TechXpress.DAL.Data.Models
 {
     public class Category
     {
-        
-        [Key] public string? CategoryName { get; set; }
+        [Key]        
+       
+        public int Id { get; set; }
+
+        [Required]
+        public string CategoryName { get; set; }
 
         public ICollection<Product>? Products { get; set; }
-
     }
 }

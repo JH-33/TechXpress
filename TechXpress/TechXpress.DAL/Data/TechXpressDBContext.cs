@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using TechXpress.DAL.Data.Models;
 
 namespace TechXpress.DAL.Data
 {
-    public class TechXpressDBContext : DbContext
+    public class TechXpressDBContext : IdentityDbContext<ApplicationUser>
     {
         public TechXpressDBContext(DbContextOptions<TechXpressDBContext> options) : base(options)
         {
@@ -19,7 +20,7 @@ namespace TechXpress.DAL.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<User>()
+            modelBuilder.Entity<ApplicationUser>()
                 .HasOne(a => a.ShoppingCart)
                 .WithOne(a => a.User)
                 .HasForeignKey<ShoppingCart>(a => a.UserID);
@@ -33,17 +34,12 @@ namespace TechXpress.DAL.Data
                 .HasOne(a => a.ShoppingCart)
                 .WithOne(a => a.Order)
                 .HasForeignKey<Order>(a => a.ShoppingCart_ID);
-
-        
-
-
-
             base.OnModelCreating(modelBuilder);
 
 
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Category> Categories { get; set; }
