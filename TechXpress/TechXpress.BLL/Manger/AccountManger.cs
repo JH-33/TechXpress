@@ -1,4 +1,5 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
+using System.Runtime.CompilerServices;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
@@ -19,6 +20,37 @@ namespace TechXpress.BLL.Manger
             configuration = _configuration;
             userManager = _userManager;
         }
+
+        public async Task<bool> DeleteProfile(string UserId)
+        {
+            var user =  await  userManager.FindByIdAsync(UserId);
+            if (user == null) { throw new Exception("not found profile"); }
+           var result= await userManager.DeleteAsync(user);
+            if (result.Succeeded)
+            {
+                return true;
+            }
+            else
+            {
+                throw new Exception("Failed to delete profile: ");
+            }
+        }
+
+        public async Task<Profiledto> GetProfilebyid(string UserId)
+        {
+            var user = await userManager.FindByIdAsync(UserId);
+            if (user == null) { throw new Exception("not found profile"); }
+            var profile = new Profiledto
+            {
+                Name = user.UserName,
+                PhoneNumber = user.PhoneNumber,
+                Address = user.Address,
+                Email = user.Email
+            };
+            return profile;
+
+        }
+
         public async Task<string> Login(LoginDto loginDto)
         {
             var user = await userManager.FindByNameAsync(loginDto.Name);
@@ -86,8 +118,8 @@ namespace TechXpress.BLL.Manger
             {
                 Email = registerDto.Email,
                 UserName = registerDto.Name,
-                Address=registerDto.Address
-                
+                Address=registerDto.Address,
+                PhoneNumber=registerDto.PhoneNumber
             };
 
             var result = await userManager.CreateAsync(user, registerDto.Password);
@@ -107,6 +139,22 @@ namespace TechXpress.BLL.Manger
             await userManager.AddClaimsAsync(user, claims);
 
             return GenerateToken(claims);
+        }
+
+        public async Task<bool> UpdateProfile(Profiledto profiledto,String UserId)
+        {
+            var user = await userManager.FindByIdAsync(UserId);
+            if (user == null)
+            {
+                throw new Exception("not found profile");
+            }
+            user.UserName = profiledto.Name;
+            user.PhoneNumber = profiledto.PhoneNumber;
+            user.Address = profiledto.Address;
+            user.Email = profiledto.Email;
+
+            var result = await userManager.UpdateAsync(user);
+            return result.Succeeded;
         }
 
         private string GenerateToken(IList<Claim> claims)

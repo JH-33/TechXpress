@@ -13,7 +13,7 @@ namespace TechXpress.DAL.Data.Models
         [Key] 
         public int ShoppingCart_ID { get; set; }
         public int NumberofItems { get; set; }
-        public string? CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }= DateTime.UtcNow;
         public string? UserID { get; set; }
         public ApplicationUser? User { get; set; }
 

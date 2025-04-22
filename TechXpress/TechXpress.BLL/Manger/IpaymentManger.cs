@@ -15,6 +15,5 @@ namespace TechXpress.BLL.Manger
         void Insert( PaymentAddDto paymentAdd);
         void Update(PaymentUpdateDto paymentUpdate);
         void Delete(int id);
-        void SaveChanges();
     }
 }

@@ -266,8 +266,8 @@ namespace TechXpress.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OrderID"));
 
-                    b.Property<string>("OrderDate")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Order_Status")
                         .HasColumnType("nvarchar(max)");
@@ -285,7 +285,6 @@ namespace TechXpress.DAL.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("UserID")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.HasKey("OrderID");
@@ -407,8 +406,8 @@ namespace TechXpress.DAL.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCart_ID"));
 
-                    b.Property<string>("CreatedDate")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
 
                     b.Property<int>("NumberofItems")
                         .HasColumnType("int");
@@ -502,9 +501,7 @@ namespace TechXpress.DAL.Migrations
 
                     b.HasOne("TechXpress.DAL.Data.Models.ApplicationUser", "User")
                         .WithMany("Orders")
-                        .HasForeignKey("UserID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserID");
 
                     b.Navigation("ShoppingCart");
 

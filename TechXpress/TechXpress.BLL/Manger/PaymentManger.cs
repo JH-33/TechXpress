@@ -16,13 +16,15 @@ namespace TechXpress.BLL.Manger
         public void Delete(int id)
         {
             var modeldelete = paymentRepo.GetById(id);
+            if (modeldelete == null) throw new Exception("");
             paymentRepo.Delete(modeldelete);
-            SaveChanges();
+            
         }
 
         public PaymentReadDto GetById(int id)
         {
             var modelread = paymentRepo.GetById(id);
+            if (modelread == null) return null;
             var modelreaddro = new PaymentReadDto()
             {
                 PaymentID = modelread.PaymentID,
@@ -44,23 +46,20 @@ namespace TechXpress.BLL.Manger
                 OrderID = paymentAdd.OrderID
             };
             paymentRepo.Insert(modeladd);
-            SaveChanges();
         }
 
-        public void SaveChanges()
-        {
-            paymentRepo.SaveChanges();
-        }
+        
 
         public void Update(PaymentUpdateDto paymentUpdate)
         {
             var modelupdate = paymentRepo.GetById(paymentUpdate.PaymentID);
+            if (modelupdate == null) throw new Exception("");
             modelupdate.PaymentType = paymentUpdate.PaymentType;
             modelupdate.PaymentAmount = paymentUpdate.PaymentAmount;
             modelupdate.PaymentDate = paymentUpdate.PaymentDate;
             modelupdate.OrderID = paymentUpdate.OrderID;
             paymentRepo.Update(modelupdate);
-            SaveChanges();
+            
     }
     }
 }

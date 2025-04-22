@@ -14,7 +14,7 @@ namespace TechXpress.DAL.Data.Models
        
         public string? Address { get; set; }
 
-        public ICollection<Order>? Orders { get; set; } //1-to-m
+        public ICollection<Order>? Orders { get; set; } //1-to-mSS
         public ICollection<Product>? Products { get; set; } //m-to-m
         public ICollection<Review>? Reviews { get; set; } //1-to-m
         public int? ShoppingCart_ID { get; set; }

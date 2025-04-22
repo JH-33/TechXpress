@@ -13,7 +13,7 @@ namespace TechXpress.BLL.DTO
             public int? TotalAmountToPay { get; set; }
             public int? PaymentID { get; set; }
             public int? ShoppingCart_ID { get; set; }
-            public string? OrderDate { get; set; }
+            public DateTime OrderDate { get; set; }
 
         public string? Shipping_Address { get; set; }
     }

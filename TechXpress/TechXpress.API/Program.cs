@@ -29,6 +29,10 @@ builder.Services.AddScoped<IpaymentManger, PaymentManger>();
 builder.Services.AddScoped<IPaymentRepo, PaymentRepo>();
 builder.Services.AddScoped<IProductManger, ProductManger>();
 builder.Services.AddScoped<IProductRepo, ProductRepo>();
+builder.Services.AddScoped<IReviewManger, ReviewManger>();
+builder.Services.AddScoped<IReviewRepo,ReviewRepo>();
+builder.Services.AddScoped<IShoppingManager, ShoppingManger>();
+builder.Services.AddScoped<IShoppingCartRepo, ShoppingCartRepo>();
 
 
 builder.Services.AddScoped<IAccountManger, AccountManger>();

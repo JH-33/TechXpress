@@ -11,6 +11,10 @@ namespace TechXpress.BLL.Manger
     {
         Task<string> Login(LoginDto loginDto);
         Task<string> Register(RegisterDto registerDto);
+        Task<Profiledto> GetProfilebyid(String UserId);
+        Task<bool> DeleteProfile(String UserId);
+        Task<bool> UpdateProfile(Profiledto profiledto, String UserId);
+        
 
     }
 }

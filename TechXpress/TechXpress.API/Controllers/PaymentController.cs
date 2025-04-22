@@ -19,10 +19,10 @@ namespace TechXpress.API.Controllers
         public ActionResult GetById(int Id)
         {
 
-            var order = paymentManger.GetById(Id);
-            if (order == null)
+            var payment = paymentManger.GetById(Id);
+            if (payment == null)
                 return NotFound();
-            return Ok(order);
+            return Ok(payment);
         }
 
         [HttpPost]

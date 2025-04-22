@@ -11,7 +11,7 @@ namespace TechXpress.DAL.Data.Models
     {
         [Key]
         public int OrderID { get; set; }
-        public string? OrderDate { get; set; }
+        public DateTime OrderDate { get; set; }
         public int? TotalAmountToPay { get; set; }
         public string? Order_Status { get; set; }
         public string? Shipping_Address { get; set; }
@@ -23,6 +23,7 @@ namespace TechXpress.DAL.Data.Models
 
         public int? ShoppingCart_ID { get; set; }
         public ShoppingCart? ShoppingCart { get; set; }
+        //public ICollection<Product> products { get; set; }
 
 
     } 

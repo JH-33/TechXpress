@@ -16,6 +16,7 @@ namespace TechXpress.BLL.Manger
         public void Delete(int id)
         {
             var modelDelete = productRepo.GetById(id);
+            if (modelDelete == null) throw new Exception();
             productRepo.Delete(modelDelete);
             productRepo.SaveChanges();
         }
@@ -38,6 +39,7 @@ namespace TechXpress.BLL.Manger
         public ProductReadDto GetById(int id)
         {
             var modelreadfromdatabase = productRepo.GetById(id);
+            if (modelreadfromdatabase == null) return null;
             var modeldto = new ProductReadDto()
             {
                 ProductId = modelreadfromdatabase.ProductId,
@@ -67,6 +69,7 @@ namespace TechXpress.BLL.Manger
         public void Update(ProductUpdateDto productUpdate)
         {
             var model = productRepo.GetById(productUpdate.ProductId);
+            if (model == null) throw new Exception();
             model.ProductName = productUpdate.ProductName;
             model.ProductDescription = productUpdate.ProductDescription;
             model.Price = productUpdate.Price;

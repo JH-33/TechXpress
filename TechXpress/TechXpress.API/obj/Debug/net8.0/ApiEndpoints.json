@@ -1,6 +1,68 @@
 [
   {
     "ContainingType": "TechXpress.API.Controllers.AccountController",
+    "Method": "DeleteProfile",
+    "RelativePath": "api/Account/DeleteProfile/{UserId)}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId)",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.AccountController",
+    "Method": "GetProfilebyid",
+    "RelativePath": "api/Account/GetProfilebyid/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TechXpress.BLL.DTO.AccountDto.Profiledto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/Login",
     "HttpMethod": "POST",
@@ -30,6 +92,42 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.AccountController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Account/UpdateProfile/{UserId)}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profiledto",
+        "Type": "TechXpress.BLL.DTO.AccountDto.Profiledto",
+        "IsRequired": true
+      },
+      {
+        "Name": "UserId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserId)",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "TechXpress.API.Controllers.CategoryController",
@@ -260,18 +358,8 @@
   },
   {
     "ContainingType": "TechXpress.API.Controllers.ProductController",
-    "Method": "GetAll",
-    "RelativePath": "api/Product",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "TechXpress.API.Controllers.ProductController",
-    "Method": "Insert",
-    "RelativePath": "api/Product",
+    "Method": "AddProduct",
+    "RelativePath": "api/Product/AddProduct",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -286,8 +374,34 @@
   },
   {
     "ContainingType": "TechXpress.API.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/DeleteProduct{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ProductController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/Product/Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ProductController",
     "Method": "GetById",
-    "RelativePath": "api/Product/{Id}",
+    "RelativePath": "api/Product/Product/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -302,8 +416,8 @@
   },
   {
     "ContainingType": "TechXpress.API.Controllers.ProductController",
-    "Method": "Update",
-    "RelativePath": "api/Product/{Id}",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/UpdateProduct/{Id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -322,9 +436,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "TechXpress.API.Controllers.ProductController",
-    "Method": "Delete",
-    "RelativePath": "api/Product/{Id}",
+    "ContainingType": "TechXpress.API.Controllers.ReviewController",
+    "Method": "GetReviewsByProductIdAsync",
+    "RelativePath": "api/Review/ByProduct/{productid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ReviewController",
+    "Method": "DeleteReview",
+    "RelativePath": "api/Review/DeleteReview/{Id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -332,6 +462,216 @@
       {
         "Name": "Id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ReviewController",
+    "Method": "GetAllReviews",
+    "RelativePath": "api/Review/GetAllReviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/Review/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ReviewController",
+    "Method": "InsertReview",
+    "RelativePath": "api/Review/InsertReview/{productId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reviewAddDto",
+        "Type": "TechXpress.BLL.DTO.ReviewAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ReviewController",
+    "Method": "UpdateReview",
+    "RelativePath": "api/Review/UpdateReview/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "reviewUpdateDto",
+        "Type": "TechXpress.BLL.DTO.ReviewUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "AddProductToCart",
+    "RelativePath": "api/Shopping/AddProduct/{cartId}/{ProductId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "shoppingAddDto",
+        "Type": "TechXpress.BLL.DTO.ShoppingAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "CheckOut",
+    "RelativePath": "api/Shopping/checkOut/{cartid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "CreateShoppingCart",
+    "RelativePath": "api/Shopping/CreateShoppingCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shoppingAddDto",
+        "Type": "TechXpress.BLL.DTO.ShoppingAddDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "GetAllshoppingcart",
+    "RelativePath": "api/Shopping/GetAllshoppingcart",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "GetById",
+    "RelativePath": "api/Shopping/GetById/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "RemoveProduct",
+    "RelativePath": "api/Shopping/RemoveProduct/{CartId}/{ProductId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CartId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ProductId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "RemoveShoppingCart",
+    "RelativePath": "api/Shopping/RemoveShoppingCart/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TechXpress.API.Controllers.ShoppingController",
+    "Method": "UpdateShopping",
+    "RelativePath": "api/Shopping/UpdateShopping/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "shoppingCartUpdateDto",
+        "Type": "TechXpress.BLL.DTO.ShoppingCartUpdateDto",
         "IsRequired": true
       }
     ],

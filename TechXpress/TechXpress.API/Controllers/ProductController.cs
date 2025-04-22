@@ -14,29 +14,29 @@ namespace TechXpress.API.Controllers
         {
             productManger = _productManger;
         }
-        [HttpGet]
-        public ActionResult GetAll()
+        [HttpGet("Product")]
+        public ActionResult GetAllProduct()
         {
             return Ok(productManger.GetAll());
         }
-        [HttpGet("{Id}")]
+        [HttpGet("Product/{Id}")]
         public ActionResult GetById(int Id)
         {
 
-            var order = productManger.GetById(Id);
-            if (order == null)
+            var product = productManger.GetById(Id);
+            if (product == null)
                 return NotFound();
-            return Ok(order);
+            return Ok(product);
         }
 
-        [HttpPost]
-        public ActionResult Insert(ProductAddDto productAdd)
+        [HttpPost("AddProduct")]
+        public ActionResult AddProduct(ProductAddDto productAdd)
         {
             productManger.Insert(productAdd);
             return NoContent();
         }
-        [HttpPut("{Id}")]
-        public ActionResult Update(int Id, ProductUpdateDto productUpdate)
+        [HttpPut("UpdateProduct/{Id}")]
+        public ActionResult UpdateProduct(int Id, ProductUpdateDto productUpdate)
         {
             if (Id != productUpdate.ProductId)
                 return BadRequest();
@@ -44,7 +44,7 @@ namespace TechXpress.API.Controllers
             productManger.Update(productUpdate);
             return NoContent();
         }
-        [HttpDelete("{Id}")]
+        [HttpDelete("DeleteProduct{Id}")]
         public ActionResult Delete(int Id)
         {
             productManger?.Delete(Id);
