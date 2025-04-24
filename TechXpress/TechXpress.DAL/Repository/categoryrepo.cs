@@ -40,7 +40,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Category category)
         {
-           
+           context.Update(category);
         }
     }
 }

@@ -14,6 +14,8 @@ namespace TechXpress.BLL.Manger
         ReviewReadDto GetById(int id);
         IEnumerable<ReviewReadDto> GetReviewsByProductIdAsync(int productId);
         void AddReviewToProduct(int productId, ReviewAddDto reviewAddDto);
+        int GetReviewCount(int productId);
+
         void UpdateReview(int productId, ReviewUpdateDto reviewUpdateDto);
         void DeleteReview(int reviewId);
     }

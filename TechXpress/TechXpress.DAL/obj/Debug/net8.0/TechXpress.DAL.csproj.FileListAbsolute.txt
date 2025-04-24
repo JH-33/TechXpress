@@ -28,3 +28,18 @@ D:\تدريب\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\refint\TechX
 D:\تدريب\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.pdb
 D:\تدريب\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.genruntimeconfig.cache
 D:\تدريب\TechXpress\TechXpress\TechXpress.DAL\obj\Debug\net8.0\ref\TechXpress.DAL.dll
+E:\TechXpress 2\TechXpress\TechXpress.DAL\bin\Debug\net8.0\TechXpress.DAL.deps.json
+E:\TechXpress 2\TechXpress\TechXpress.DAL\bin\Debug\net8.0\TechXpress.DAL.runtimeconfig.json
+E:\TechXpress 2\TechXpress\TechXpress.DAL\bin\Debug\net8.0\TechXpress.DAL.dll
+E:\TechXpress 2\TechXpress\TechXpress.DAL\bin\Debug\net8.0\TechXpress.DAL.pdb
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.csproj.AssemblyReference.cache
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.AssemblyInfoInputs.cache
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.AssemblyInfo.cs
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.csproj.CoreCompileInputs.cache
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.sourcelink.json
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.dll
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\refint\TechXpress.DAL.dll
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.pdb
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\TechXpress.DAL.genruntimeconfig.cache
+E:\TechXpress 2\TechXpress\TechXpress.DAL\obj\Debug\net8.0\ref\TechXpress.DAL.dll

@@ -14,12 +14,10 @@ namespace TechXpress.DAL.Data.Models
         public string? PaymentType { get; set; }
         public int? PaymentAmount { get; set; }
         public string? PaymentDate { get; set; }
+        
         public int? OrderID { get; set; }
         public Order? Order { get; set; }
         
     }
-    
-
- 
 
 }

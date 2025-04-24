@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TechXpress.DAL.Data;
 using TechXpress.DAL.Data.Models;
+using TechXpress.DAL.Migrations;
 
 namespace TechXpress.DAL.Repository
 {
@@ -40,7 +41,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Order order)
         {
-            
+            context.Update(order);
         }
     }
 }

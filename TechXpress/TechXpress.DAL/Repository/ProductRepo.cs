@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TechXpress.DAL.Data;
 using TechXpress.DAL.Data.Models;
+using TechXpress.DAL.Migrations;
 
 namespace TechXpress.DAL.Repository
 {
@@ -41,7 +42,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Product product)
         {
-            
+            context.Update(product);
         }
     }
 }
