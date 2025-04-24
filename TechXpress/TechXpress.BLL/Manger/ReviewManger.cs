@@ -26,6 +26,11 @@ namespace TechXpress.BLL.Manger
             reviewRepo.Insert(model);
         }
 
+        public int GetReviewCount(int productId)
+        {
+            return GetReviewsByProductIdAsync(productId).Count();
+        }
+
         public void DeleteReview(int id)
         {
             var reviewdelete = reviewRepo.GetById(id);
@@ -66,7 +71,9 @@ namespace TechXpress.BLL.Manger
 
         public IEnumerable<ReviewReadDto> GetReviewsByProductIdAsync(int productId)
         {
-            var data = reviewRepo.GetReviewsByProductIdAsync(productId);
+            var data = reviewRepo.GetReviewsByProductIdAsync(productId).OrderByDescending(ra => ra.Rating);
+            
+            
             var reviewreaddto = data .Select(a=>new ReviewReadDto
             {
                 ReviewDescription = a.ReviewDescription,

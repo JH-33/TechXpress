@@ -19,7 +19,7 @@ namespace TechXpress.DAL.Data.Models
         public ICollection<ApplicationUser>? User { get; set; }
         public ICollection<Review>? Reviews { get; set; }
 
-        public int? catgoryid { get; set; }
+        public int? categoryid { get; set; }
         public Category? Category { get; set; }
         
 

@@ -5283,23 +5283,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tweety\\.nuget\\packages\\": {},
+    "C:\\Users\\GanaHany\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\تدريب\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+      "projectUniqueName": "E:\\TechXpress 2\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
       "projectName": "TechXpress.API",
-      "projectPath": "D:\\تدريب\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
-      "packagesPath": "C:\\Users\\Tweety\\.nuget\\packages\\",
-      "outputPath": "D:\\تدريب\\TechXpress\\TechXpress\\TechXpress.API\\obj\\",
+      "projectPath": "E:\\TechXpress 2\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+      "packagesPath": "C:\\Users\\GanaHany\\.nuget\\packages\\",
+      "outputPath": "E:\\TechXpress 2\\TechXpress\\TechXpress.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tweety\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\GanaHany\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5308,14 +5308,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\تدريب\\TechXpress\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj": {
-              "projectPath": "D:\\تدريب\\TechXpress\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj"
+            "E:\\TechXpress 2\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj": {
+              "projectPath": "E:\\TechXpress 2\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj"
             }
           }
         }
@@ -5329,8 +5330,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -5378,7 +5378,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\program files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

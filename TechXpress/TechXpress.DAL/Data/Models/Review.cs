@@ -13,6 +13,7 @@ namespace TechXpress.DAL.Data.Models
         public int? ReviewId { get; set; }
         public string? ReviewDescription { get; set; }
         public int? Rating { get; set; } //on a scale of 1 to 5 with 1 'star' being the worst and 5 'stars' being the best
+        
         public string UserID { get; set; }
         public ApplicationUser? User { get; set; }
 

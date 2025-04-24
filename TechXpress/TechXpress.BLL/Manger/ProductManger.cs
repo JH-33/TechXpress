@@ -31,7 +31,7 @@ namespace TechXpress.BLL.Manger
               ProductDescription=a.ProductDescription,
               Price=a.Price,
               StockQuantity=a.StockQuantity,
-              categoryid=a.catgoryid
+              categoryid=a.categoryid
             });
             return modelread;
         }
@@ -47,7 +47,7 @@ namespace TechXpress.BLL.Manger
                 ProductDescription=modelreadfromdatabase.ProductDescription,
                 Price=modelreadfromdatabase.Price,
                 StockQuantity=modelreadfromdatabase.StockQuantity,
-                categoryid=modelreadfromdatabase.catgoryid
+                categoryid=modelreadfromdatabase.categoryid
             };
             return modeldto;
         }
@@ -60,7 +60,7 @@ namespace TechXpress.BLL.Manger
                 ProductDescription = productAddDto.ProductDescription,
                 Price = productAddDto.Price,
                 StockQuantity = productAddDto.StockQuantity,
-                catgoryid = productAddDto.CategoryId,
+                categoryid = productAddDto.CategoryId,
             };
             productRepo.Insert(model);
             productRepo.SaveChanges();
@@ -74,7 +74,7 @@ namespace TechXpress.BLL.Manger
             model.ProductDescription = productUpdate.ProductDescription;
             model.Price = productUpdate.Price;
             model.StockQuantity = productUpdate.StockQuantity;
-            model.catgoryid = productUpdate.CategoryId;
+            model.categoryid = productUpdate.CategoryId;
       
 
         productRepo.Update(model);

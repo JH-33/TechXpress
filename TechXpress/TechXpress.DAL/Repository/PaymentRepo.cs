@@ -1,5 +1,6 @@
 ﻿using TechXpress.DAL.Data;
 using TechXpress.DAL.Data.Models;
+using TechXpress.DAL.Migrations;
 
 namespace TechXpress.DAL.Repository
 {
@@ -33,7 +34,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Payment payment)
         {
-            
+            context.Update(payment);
         }
     }
 }

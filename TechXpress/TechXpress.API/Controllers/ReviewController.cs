@@ -38,6 +38,16 @@ namespace TechXpress.API.Controllers
             return Ok(review);
         }
 
+        [HttpGet("GetByProduct/{productId}")]
+        public ActionResult GetReviewCount(int productid)
+        {
+
+            var count = reviewManger.GetReviewCount(productid);
+            if (count == 0)
+                return NotFound();
+            return Ok(count);
+        }
+
         [HttpPost("InsertReview/{productId}")]
         public ActionResult InsertReview(int productId,ReviewAddDto reviewAddDto)
         {

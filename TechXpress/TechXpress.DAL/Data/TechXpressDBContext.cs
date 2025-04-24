@@ -34,6 +34,8 @@ namespace TechXpress.DAL.Data
                 .HasOne(a => a.ShoppingCart)
                 .WithOne(a => a.Order)
                 .HasForeignKey<Order>(a => a.ShoppingCart_ID);
+            
+            
             base.OnModelCreating(modelBuilder);
 
 
