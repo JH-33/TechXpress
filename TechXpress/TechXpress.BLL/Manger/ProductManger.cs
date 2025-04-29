@@ -52,6 +52,22 @@ namespace TechXpress.BLL.Manger
             return modeldto;
         }
 
+        public ProductReadDto GetByName(string name)
+        {
+            var modelreadfromdatabase = productRepo.GetByName(name);
+            if (modelreadfromdatabase == null) return null;
+            var modeldto = new ProductReadDto()
+            {
+                ProductId = modelreadfromdatabase.ProductId,
+                ProductName = modelreadfromdatabase.ProductName,
+                ProductDescription = modelreadfromdatabase.ProductDescription,
+                Price = modelreadfromdatabase.Price,
+                StockQuantity = modelreadfromdatabase.StockQuantity,
+                categoryid = modelreadfromdatabase.categoryid
+            };
+            return modeldto;
+        }
+
         public void Insert(ProductAddDto productAddDto)
         {
             var model = new Product()

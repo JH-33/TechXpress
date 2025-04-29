@@ -43,6 +43,16 @@ namespace TechXpress.BLL.Manger
             return categoryDto;
         }
 
+        //public CategoryDto GetByName(string name)
+        //{
+        //    var model2 = categoryrepo.GetByName(name);
+        //    CategoryDto categoryDto = new CategoryDto()
+        //    {
+        //        CategoryName = model2.CategoryName,
+        //    };
+        //    return categoryDto;
+        //}
+
         public void Insert(CategoryDto categoryDto)
         {
             var model3 = new Category()

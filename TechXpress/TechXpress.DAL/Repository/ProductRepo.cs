@@ -29,6 +29,11 @@ namespace TechXpress.DAL.Repository
             return context.Products.Find(id);
         }
 
+        public Product GetByName(string name)
+        {
+            return context.Products.Find(name);
+        }
+
         public void Insert(Product product)
         {
             context.Add(product);

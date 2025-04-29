@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechXpress.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cf4b1efc0fb59cfe352b87d526876cd0d3bb0f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0578cbbdfc9a4033634e111239982bc81d005625")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechXpress.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechXpress.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
