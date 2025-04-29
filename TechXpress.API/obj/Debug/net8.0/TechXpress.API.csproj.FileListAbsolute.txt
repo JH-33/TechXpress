@@ -1,0 +1,611 @@
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.Development.json
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.json
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.exe
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.deps.json
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.runtimeconfig.json
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.pdb
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Core.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Identity.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Memory.Data.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.pdb
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.pdb
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.AssemblyReference.cache
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfoInputs.cache
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfo.cs
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.CoreCompileInputs.cache
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cs
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cache
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.build.json
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.development.json
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.TechXpress.API.Microsoft.AspNetCore.StaticWebAssets.props
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TechXpress.API.props
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TechXpress.API.props
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TechXpress.API.props
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.pack.json
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\scopedcss\bundle\TechXpress.API.styles.css
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpre.5C86726C.Up2Date
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.dll
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\refint\TechXpress.API.dll
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.pdb
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.genruntimeconfig.cache
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\ref\TechXpress.API.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Humanizer.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.CodeDom.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.sourcelink.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.Development.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.staticwebassets.endpoints.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.exe
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.deps.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.runtimeconfig.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.pdb
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Core.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Identity.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Humanizer.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.CodeDom.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Memory.Data.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.pdb
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.pdb
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.AssemblyReference.cache
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfoInputs.cache
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfo.cs
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.CoreCompileInputs.cache
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cs
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cache
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.sourcelink.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\scopedcss\bundle\TechXpress.API.styles.css
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.build.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.development.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.TechXpress.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.TechXpress.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TechXpress.API.props
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TechXpress.API.props
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TechXpress.API.props
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.pack.json
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpre.5C86726C.Up2Date
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\refint\TechXpress.API.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.pdb
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.genruntimeconfig.cache
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\obj\Debug\net8.0\ref\TechXpress.API.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\تدريب\TechXpress\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.Development.json
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.json
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.exe
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.deps.json
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.runtimeconfig.json
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.pdb
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Core.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Identity.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Humanizer.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.CodeDom.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Convention.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Memory.Data.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.pdb
+E:\TechXpress 2\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.pdb
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.AssemblyReference.cache
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.GeneratedMSBuildEditorConfig.editorconfig
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfoInputs.cache
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfo.cs
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.CoreCompileInputs.cache
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cs
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cache
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.sourcelink.json
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.build.json
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.development.json
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.TechXpress.API.Microsoft.AspNetCore.StaticWebAssets.props
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TechXpress.API.props
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TechXpress.API.props
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TechXpress.API.props
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.pack.json
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\scopedcss\bundle\TechXpress.API.styles.css
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpre.5C86726C.Up2Date
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\refint\TechXpress.API.dll
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.pdb
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.genruntimeconfig.cache
+E:\TechXpress 2\TechXpress\TechXpress.API\obj\Debug\net8.0\ref\TechXpress.API.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\appsettings.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.staticwebassets.endpoints.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.exe
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.deps.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.runtimeconfig.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.API.pdb
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.BLL.pdb
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\bin\Debug\net8.0\TechXpress.DAL.pdb
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.AssemblyReference.cache
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfoInputs.cache
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.AssemblyInfo.cs
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.csproj.CoreCompileInputs.cache
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.sourcelink.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\scopedcss\bundle\TechXpress.API.styles.css
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.TechXpress.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.TechXpress.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.build.TechXpress.API.props
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TechXpress.API.props
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TechXpress.API.props
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpre.5C86726C.Up2Date
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\refint\TechXpress.API.dll
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.pdb
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\TechXpress.API.genruntimeconfig.cache
+C:\Users\HUAWEI\Desktop\New folder (3)\TechXpress\TechXpress.API\obj\Debug\net8.0\ref\TechXpress.API.dll
