@@ -1,0 +1,1500 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\ordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\ordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\techxpressdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\techxpressdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\couponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\couponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\orderadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\orderadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\couponrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\couponrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\orderreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\orderreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\paymentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\paymentadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\iordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\iordermanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\paymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\paymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\couponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429054133_couponss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TechXpress.DAL\\Migrations\\20250429054133_couponss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\couponupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\couponupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\couponadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\couponadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\couponreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\couponreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\productadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\productmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\productmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\categorymanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\categorymanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\accountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\accountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\iaccountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\iaccountmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\icouponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\icouponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\icouponrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\icouponrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\icategoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\shoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\shoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\paymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\paymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\paymentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\paymentreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429041314_fixingcoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TechXpress.DAL\\Migrations\\20250429041314_fixingcoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\reviewmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\reviewmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\shoppingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\accountdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\accountdto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429033607_applyingCoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TechXpress.DAL\\Migrations\\20250429033607_applyingCoupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\shoppingmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\shoppingmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\icategorymanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\icategorymanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\accountdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\accountdto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\techxpress.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\techxpress.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\techxpress.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\techxpress.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\ipaymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\ipaymentmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\categoryrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\shoppingreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\shoppingreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\ishoppingmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\ishoppingmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\paymentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\paymentupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\reviewadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\reviewadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\reviewreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\reviewreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\shoppingadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\shoppingadddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\techxpress.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\techxpress.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\accountdto\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\accountdto\\profiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\ireviewmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\ireviewmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\manger\\iproductmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\manger\\iproductmanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\reviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\reviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\ishoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\ishoppingcartrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\ireviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\ireviewrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\repository\\ipaymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\repository\\ipaymentrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\shoppingupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\shoppingupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\reviewupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\reviewupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\techxpress.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\techxpress.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\productupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.bll\\dto\\productreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E468577F-759E-4031-88CD-876B5E024802}|TechXpress.BLL\\TechXpress.BLL.csproj|solutionrelative:techxpress.bll\\dto\\productreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u062A\u062F\u0631\u064A\u0628\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418135155_UpdateUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.api\\techxpress.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D4E2D46A-3475-4BFF-ADB7-814900811C33}|TechXpress.API\\TechXpress.API.csproj|solutionrelative:techxpress.api\\techxpress.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\migrations\\20250414191303_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\migrations\\20250414191303_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414190911_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414185052_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\migrations\\20250418190103_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\migrations\\20250418190103_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\migrations\\20250418140402_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\migrations\\20250418140402_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\migrations\\20250421075721_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\migrations\\20250421075721_update.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|c:\\users\\huawei\\desktop\\techxpress\\techxpress\\techxpress.dal\\migrations\\20250425054652_adding coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF241926-0ACE-4E8B-88F6-75B62589F608}|TechXpress.DAL\\TechXpress.DAL.csproj|solutionrelative:techxpress.dal\\migrations\\20250425054652_adding coupon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\OrderManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\OrderManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\OrderManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\OrderManger.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAnwEgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:45:37.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\OrderAddDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\OrderAddDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\OrderAddDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\OrderAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAMzMzMzMLwA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:30:24.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IOrderManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\IOrderManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IOrderManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\IOrderManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:45:23.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CouponManager.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\CouponManager.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\CouponManager.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\CouponManager.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\CouponManager.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:28:17.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CouponRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\CouponRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\CouponRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\CouponRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\CouponRepo.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAWwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T01:47:59.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAnwEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T23:25:21.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "orderrepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\orderrepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\orderrepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\orderrepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\orderrepo.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:18:57.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TechXpressDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\TechXpressDBContext.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\TechXpressDBContext.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\TechXpressDBContext.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\TechXpressDBContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAewCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:20:49.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\OrderReadDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\OrderReadDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\OrderReadDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\OrderReadDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:23:52.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaymentAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\PaymentAddDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\PaymentAddDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\PaymentAddDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\PaymentAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:05:45.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\OrderUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\OrderUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\OrderUpdateDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\OrderUpdateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:43:20.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PaymentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\PaymentRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\PaymentRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\PaymentRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\PaymentRepo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA+wCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:00:32.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CouponUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CouponUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\CouponUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CouponUpdateDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\CouponUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:38:37.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CouponController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\CouponController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\CouponController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\CouponController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\CouponController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:45:56.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CouponAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CouponAddDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\CouponAddDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CouponAddDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\CouponAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:29:52.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CouponReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CouponReadDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\CouponReadDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CouponReadDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\CouponReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:43:55.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250429054133_couponss.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429054133_couponss.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250429054133_couponss.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429054133_couponss.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250429054133_couponss.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T05:41:33.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Coupon.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Coupon.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\Coupon.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Coupon.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\Coupon.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T01:43:33.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Program.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Program.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Program.cs",
+              "RelativeToolTip": "TechXpress.API\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:27:21.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Order.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\Order.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:19:36.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ProductManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ProductManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\ProductManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ProductManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\ProductManger.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:10:10.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ProductAddDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ProductAddDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ProductAddDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ProductAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:06:16.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CategoryManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\CategoryManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\CategoryManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\CategoryManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\CategoryManger.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA5wDIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:41:31.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccountManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\AccountManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\AccountManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\AccountManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\AccountManger.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAG4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:10:01.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:45:24.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAccountManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IAccountManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\IAccountManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IAccountManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\IAccountManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:10:20.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICouponManager.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ICouponManager.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\ICouponManager.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ICouponManager.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\ICouponManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:27:48.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ICouponRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ICouponRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\ICouponRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ICouponRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\ICouponRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T01:48:15.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ICategoryrepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ICategoryrepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\ICategoryrepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ICategoryrepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\ICategoryrepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:33:29.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ShoppingCartRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ShoppingCartRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\ShoppingCartRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ShoppingCartRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\ShoppingCartRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T04:57:19.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\CategoryDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:25:34.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PaymentManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\PaymentManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\PaymentManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\PaymentManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\PaymentManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:12:01.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PaymentReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\PaymentReadDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\PaymentReadDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\PaymentReadDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\PaymentReadDto.cs",
+              "ViewState": "AgIAAAEAAAAAMjMzMzMLwA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:06:08.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250429041314_fixingcoupon.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429041314_fixingcoupon.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250429041314_fixingcoupon.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429041314_fixingcoupon.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250429041314_fixingcoupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:13:15.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReviewManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ReviewManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\ReviewManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ReviewManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\ReviewManger.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAA+wF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T03:02:01.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ShoppingController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\ShoppingController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\ShoppingController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\ShoppingController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\ShoppingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:44:16.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\AccountDto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\AccountDto\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\AccountDto\\LoginDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\AccountDto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:46:10.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\ReviewController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T04:02:15.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250429033607_applyingCoupon.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429033607_applyingCoupon.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250429033607_applyingCoupon.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250429033607_applyingCoupon.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250429033607_applyingCoupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T03:36:07.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABUAAACAZ2ZmZmYewDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:41:22.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ShoppingManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ShoppingManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\ShoppingManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ShoppingManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\ShoppingManger.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:31:36.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ICategoryManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ICategoryManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\ICategoryManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\ICategoryManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\ICategoryManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:38:31.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:38:41.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Payment.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:19:47.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Product.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:18:52.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAEAAACAMjMzMzMrwAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:18:40.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T02:05:44.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Category.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:20:23.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\AccountDto\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\AccountDto\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\AccountDto\\RegisterDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\AccountDto\\RegisterDto.cs",
+              "ViewState": "AgIAAAUAAAAAMzMzMzMrwBUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:46:25.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TechXpress.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TechXpress.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T21:17:39.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TechXpress.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\TechXpress.BLL.csproj",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj",
+              "RelativeToolTip": "TechXpress.BLL\\TechXpress.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T18:33:58.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TechXpress.DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\TechXpress.DAL.csproj",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\TechXpress.DAL.csproj",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\TechXpress.DAL.csproj",
+              "RelativeToolTip": "TechXpress.DAL\\TechXpress.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T18:17:49.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20250425054652_adding coupon.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250425054652_adding coupon.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250425054652_adding coupon.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250425054652_adding coupon.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250425054652_adding coupon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T05:46:52.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IpaymentManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IpaymentManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\IpaymentManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IpaymentManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\IpaymentManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:11:48.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "categoryrepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\categoryrepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\categoryrepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\categoryrepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\categoryrepo.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:12:19.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ShoppingReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ShoppingReadDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ShoppingReadDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ShoppingReadDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ShoppingReadDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:21:20.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IShoppingManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IShoppingManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\IShoppingManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IShoppingManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\IShoppingManger.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:25:20.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IOrderrepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IOrderrepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\IOrderrepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IOrderrepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\IOrderrepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T03:16:32.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "PaymentUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\PaymentUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\PaymentUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\PaymentUpdateDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\PaymentUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:07:31.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ReviewAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ReviewAddDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ReviewAddDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ReviewAddDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ReviewAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:50:20.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ReviewReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ReviewReadDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ReviewReadDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ReviewReadDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ReviewReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:54:18.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ShoppingAddDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ShoppingAddDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ShoppingAddDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ShoppingAddDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ShoppingAddDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T21:58:23.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TechXpress.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\appsettings.json",
+              "RelativeToolTip": "TechXpress.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-14T18:28:20.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Profiledto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\AccountDto\\Profiledto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\AccountDto\\Profiledto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\AccountDto\\Profiledto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\AccountDto\\Profiledto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T20:42:26.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "TechXpress.API.http",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.http",
+              "RelativeDocumentMoniker": "TechXpress.API\\TechXpress.API.http",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.http",
+              "RelativeToolTip": "TechXpress.API\\TechXpress.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-04-24T20:58:43.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IReviewManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IReviewManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\IReviewManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IReviewManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\IReviewManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:57:19.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IProductManger.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IProductManger.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\Manger\\IProductManger.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\Manger\\IProductManger.cs",
+              "RelativeToolTip": "TechXpress.BLL\\Manger\\IProductManger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:09:56.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ReviewRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ReviewRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\ReviewRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ReviewRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\ReviewRepo.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:58:58.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\ProductRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\ProductRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\ProductRepo.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:55:56.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "IShoppingCartRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IShoppingCartRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\IShoppingCartRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IShoppingCartRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\IShoppingCartRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T04:47:04.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IReviewRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IReviewRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\IReviewRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IReviewRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\IReviewRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T01:54:17.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IProductRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IProductRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\IProductRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IProductRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\IProductRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:55:13.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "IPaymentRepo.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IPaymentRepo.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Repository\\IPaymentRepo.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Repository\\IPaymentRepo.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Repository\\IPaymentRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T00:00:09.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ShoppingUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ShoppingUpdateDTO.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ShoppingUpdateDTO.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ShoppingUpdateDTO.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ShoppingUpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAADZmZmZmYkwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:24:38.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20250421075721_Update.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250421075721_Update.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250421075721_Update.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250421075721_Update.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250421075721_Update.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:57:21.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Data\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Data\\Models\\Review.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Data\\Models\\Review.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:19:56.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ReviewUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ReviewUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ReviewUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ReviewUpdateDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ReviewUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T02:55:33.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ProductUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ProductUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ProductUpdateDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ProductUpdateDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ProductUpdateDto.cs",
+              "ViewState": "AgIAAAEAAACAMjMzMzMbwAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:06:35.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "ProductReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ProductReadDto.cs",
+              "RelativeDocumentMoniker": "TechXpress.BLL\\DTO\\ProductReadDto.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.BLL\\DTO\\ProductReadDto.cs",
+              "RelativeToolTip": "TechXpress.BLL\\DTO\\ProductReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T01:07:08.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "TechXpress.API.csproj",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+              "RelativeDocumentMoniker": "TechXpress.API\\TechXpress.API.csproj",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+              "RelativeToolTip": "TechXpress.API\\TechXpress.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T18:34:02.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TechXpress.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TechXpress.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T21:30:16.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20250418190103_category.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418190103_category.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250418190103_category.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418190103_category.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250418190103_category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:01:03.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20250418140402_class.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418140402_class.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250418140402_class.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418140402_class.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250418140402_class.cs",
+              "ViewState": "AgIAAA0AAAD8//////9QwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:04:03.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20250418135155_UpdateUserTable.cs",
+              "DocumentMoniker": "D:\\\u062A\u062F\u0631\u064A\u0628\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418135155_UpdateUserTable.cs",
+              "ToolTip": "D:\\\u062A\u062F\u0631\u064A\u0628\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250418135155_UpdateUserTable.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T13:51:55.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20250414190911_initial.cs",
+              "DocumentMoniker": "E:\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414190911_initial.cs",
+              "ToolTip": "E:\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414190911_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:09:11.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20250414191303_initial.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414191303_initial.cs",
+              "RelativeDocumentMoniker": "TechXpress.DAL\\Migrations\\20250414191303_initial.cs",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414191303_initial.cs",
+              "RelativeToolTip": "TechXpress.DAL\\Migrations\\20250414191303_initial.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:13:03.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "TechXpress.API",
+              "DocumentMoniker": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+              "RelativeDocumentMoniker": "TechXpress.API\\TechXpress.API.csproj",
+              "ToolTip": "C:\\Users\\HUAWEI\\Desktop\\TechXpress\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+              "RelativeToolTip": "TechXpress.API\\TechXpress.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-14T19:41:29.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20250414185052_initial.cs",
+              "DocumentMoniker": "E:\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414185052_initial.cs",
+              "ToolTip": "E:\\TechXpress\\TechXpress\\TechXpress.DAL\\Migrations\\20250414185052_initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T18:50:53.343Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
