@@ -28,6 +28,11 @@ namespace TechXpress.DAL.Repository
             return context.Categories.Find(id);
         }
 
+        //public Category GetByName(string name)
+        //{
+        //    return context.Categories.Find(name);
+        //}
+
         public void Insert(Category category)
         {
              context.Add(category);

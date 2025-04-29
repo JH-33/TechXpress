@@ -19,7 +19,7 @@ namespace TechXpress.API.Controllers
         {
             return Ok(categoryManger.GetAll());
         }
-        [HttpGet("{Id}")]
+        [HttpGet("GetBy{Id}")]
         public ActionResult GetById(int Id)
         {
             return Ok(categoryManger.GetById(Id));
@@ -31,6 +31,18 @@ namespace TechXpress.API.Controllers
             categoryManger.Insert(categoryDto);
             return NoContent();
         }
+
+        [HttpGet("GetName{Name}")]
+        //public ActionResult GetByName(string Name)
+        //{
+
+        //    //var product = CategoryManger.GetByName(a =>  a.Name);
+        //    //if (product == null)
+        //    //    return NotFound();
+        //    //return Ok(product);
+        //}
+  
+
         [HttpPut("{Id}")]
         public ActionResult Update(int Id, CategoryDto categoryDto)
         {

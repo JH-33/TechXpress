@@ -12,7 +12,7 @@ namespace TechXpress.BLL.Manger
     {
         IEnumerable<ProductReadDto> GetAll();
         ProductReadDto GetById(int id);
-
+        ProductReadDto GetByName(string name);
         void Insert(ProductAddDto productAdd);
         void Update(ProductUpdateDto productUpdate);
         void Delete(int id);

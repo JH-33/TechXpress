@@ -11,7 +11,7 @@ namespace TechXpress.DAL.Repository
     {
         IQueryable<Product> GetAll();
         Product GetById(int id);
-
+        Product GetByName(string name);
         void Insert(Product product);
         void Update(Product product);
         void Delete(Product product);

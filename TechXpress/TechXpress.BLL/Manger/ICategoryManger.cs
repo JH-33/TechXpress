@@ -11,7 +11,7 @@ namespace TechXpress.BLL.Manger
     {
         IEnumerable<CategoryDto> GetAll();
         CategoryDto GetById(int id);
-
+        //CategoryDto GetByName(string name);
         void Insert(CategoryDto categoryDto);
         void Update(CategoryDto categoryDto);
         void Delete(int id);

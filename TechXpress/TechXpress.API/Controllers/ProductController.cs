@@ -29,6 +29,22 @@ namespace TechXpress.API.Controllers
             return Ok(product);
         }
 
+        [HttpGet("GetProduct/{Name}")]
+        public ActionResult GetByName(string Name)
+        {
+
+            var product = productManger.GetByName(Name);
+            if (product == null)
+                return NotFound();
+            return Ok(product);
+        }
+
+        [HttpGet("GetBestProduct/{Name}")]
+        public ProductAddDto GetFastSellingProduct(List<ProductAddDto> product)
+        {
+            return product.OrderBy(p => p.StockQuantity).FirstOrDefault();
+        }
+
         [HttpPost("AddProduct")]
         public ActionResult AddProduct(ProductAddDto productAdd)
         {

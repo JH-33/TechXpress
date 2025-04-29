@@ -41,7 +41,7 @@ builder.Services.AddAuthentication(option =>
     option.DefaultAuthenticateScheme = "jwt";
     option.DefaultChallengeScheme = "jwt";
 })
-    .AddJwtBearer("samira", options =>
+    .AddJwtBearer("jwt", options =>
 {
     var securitykeystring = builder.Configuration.GetSection("SecretKey").Value;
     var securtykeyByte = Encoding.ASCII.GetBytes(securitykeystring);
