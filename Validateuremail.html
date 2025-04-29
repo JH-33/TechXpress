@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Validate Your Email</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+
+    .left {
+      width: 50%;
+      background: url('https://images.unsplash.com/photo-1517336714731-489689fd1ca8?fit=crop&w=1350&q=80') no-repeat center center/cover;
+    }
+
+    .right {
+      width: 50%;
+      background-color: #e9dfcf;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      border: 3px dashed #991b1b;
+      padding: 40px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    .card h2 {
+      color: #1a1a1a;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #333;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    .input-boxes {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .input-boxes input {
+      width: 40px;
+      height: 50px;
+      font-size: 24px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      background-color: #991b1b;
+      color: white;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .resend {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #444;
+    }
+
+    .resend span {
+      color: red;
+      cursor: pointer;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+      position: absolute;
+      width: 100%;
+      height: 60px;
+      background: #2b2b2b;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      color: white;
+    }
+
+    .navbar .left-nav {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .navbar .right-nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar img {
+      height: 24px;
+      cursor: pointer;
+    }
+
+    .back-arrow {
+      position: absolute;
+      top: 80px;
+      left: 20px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    
+    <div class="left-nav">
+      <strong style="color: orange;">Tech</strong><strong style="color: white;">Xpress</strong>
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png" alt="fb" />
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="ig" />
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/twitterx.png" alt="x" />
+    </div>
+    <div class="right-nav">
+      <a href="#">FAQs</a>
+      <a href="#">About Us</a>
+    </div>
+  </div>
+
+  <div class="back-arrow">&#8592;</div>
+
+  <div class="left"></div>
+
+  <div class="right">
+    <div class="card">
+      <h2>Validate Your Email</h2>
+      <p>Enter the six-digit code sent to your email.</p>
+      <div class="input-boxes">
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+        <input type="text" maxlength="1" />
+      </div>
+      <button onclick="validateCode()">Validate</button>
+      <div class="resend">
+        Didn’t get a code? <span onclick="sendCode()">Send Code</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const inputs = document.querySelectorAll('.input-boxes input');
+
+    inputs.forEach((input, index) => {
+      input.addEventListener('input', () => {
+        if (input.value && index < inputs.length - 1) {
+          inputs[index + 1].focus();
+        }
+      });
+
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Backspace' && !input.value && index > 0) {
+          inputs[index - 1].focus();
+        }
+      });
+    });
+
+    function validateCode() {
+      const code = Array.from(inputs).map(input => input.value).join('');
+      alert(`Code entered: ${code}`);
+      // Add real validation here
+    }
+
+    function sendCode() {
+      alert("Code has been resent to your email.");
+      // Add resend logic here
+    }
+  </script>
+</body>
+</html>
