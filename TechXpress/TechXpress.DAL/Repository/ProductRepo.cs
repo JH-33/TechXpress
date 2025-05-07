@@ -21,7 +21,7 @@ namespace TechXpress.DAL.Repository
 
         public IQueryable<Product> GetAll()
         {
-            return context.Products.AsNoTracking();
+            return context.Products;
         }
 
         public Product GetById(int id)
@@ -47,7 +47,6 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Product product)
         {
-            context.Update(product);
         }
     }
 }

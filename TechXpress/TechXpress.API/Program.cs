@@ -2,6 +2,7 @@ using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using TechXpress.API.Middlewares;
 using TechXpress.BLL.Manger;
 using TechXpress.DAL.Data;
 using TechXpress.DAL.Data.Models;
@@ -73,5 +74,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<GlobalException>();
 
 app.Run();

@@ -23,7 +23,7 @@ namespace TechXpress.DAL.Repository
 
         public IQueryable<ShoppingCart> GetAllShoppingCarts()
         {
-            return context.ShoppingCarts.AsNoTracking();
+            return context.ShoppingCarts;
         }
 
         public ShoppingCart GetById(int cartId)
@@ -46,7 +46,6 @@ namespace TechXpress.DAL.Repository
 
         public void Update(ShoppingCart shoppingCart)
         {
-            context.ShoppingCarts.Update(shoppingCart);
             SaveChanges();
         }
     }

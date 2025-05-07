@@ -34,7 +34,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Payment payment)
         {
-            context.Update(payment);
+           
         }
     }
 }

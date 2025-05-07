@@ -20,7 +20,7 @@ namespace TechXpress.DAL.Repository
 
         public IQueryable<Category> GetAll()
         {
-            return context.Categories.AsNoTracking();
+            return context.Categories;
         }
 
         public Category GetById(int id)
@@ -38,14 +38,16 @@ namespace TechXpress.DAL.Repository
              context.Add(category);
         }
 
+        public void Update(Category category)
+        {
+
+        }
+
         public void SaveChanges()
         {
             context.SaveChanges();
         }
 
-        public void Update(Category category)
-        {
-           context.Update(category);
-        }
+        
     }
 }

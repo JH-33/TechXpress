@@ -41,7 +41,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Order order)
         {
-            context.Update(order);
+            
         }
     }
 }

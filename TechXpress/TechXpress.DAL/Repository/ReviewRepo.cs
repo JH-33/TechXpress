@@ -25,7 +25,7 @@ namespace TechXpress.DAL.Repository
         }
         public IQueryable<Review> GetAllReviews()
         {
-            return context.Reviews.AsNoTracking();
+            return context.Reviews;
         }
 
         public Review GetById(int id)
@@ -46,7 +46,7 @@ namespace TechXpress.DAL.Repository
 
         public void Update(Review review)
         {
-            context.Update(review);
+          
             context.SaveChanges();
         }
     }
