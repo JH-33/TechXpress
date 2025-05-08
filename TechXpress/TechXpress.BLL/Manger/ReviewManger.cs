@@ -49,7 +49,7 @@ namespace TechXpress.BLL.Manger
                 UserID = a.UserID,
                 ProductID = a.ProductID
 
-            });
+            }).ToList();
             return ReviewdDto;
         }
 

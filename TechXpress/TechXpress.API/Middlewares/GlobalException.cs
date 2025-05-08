@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace TechXpress.API.Middlewares
 {
-    // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
+    
     public class GlobalException
     {
         private readonly RequestDelegate _next;
@@ -24,7 +24,7 @@ namespace TechXpress.API.Middlewares
             }
             catch (Exception exception)
             {
-                _logger.LogError(exception, "An Error Has Occured");
+                _logger.LogError(exception, "A Global Exception has occurred.");
                 await HandleExceptionAsync(httpContext, exception);
             }
             
@@ -37,7 +37,7 @@ namespace TechXpress.API.Middlewares
 
             var result = new
             {
-                error = exception.ToString(),
+                error = "An error has occurred",
                 detail = exception.Message
             };
 

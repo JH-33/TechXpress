@@ -1,7 +1,9 @@
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using Microsoft.IdentityModel.Tokens;
+using TechXpress.API.Controllers;
 using TechXpress.API.Middlewares;
 using TechXpress.BLL.Manger;
 using TechXpress.DAL.Data;
@@ -34,6 +36,8 @@ builder.Services.AddScoped<IReviewManger, ReviewManger>();
 builder.Services.AddScoped<IReviewRepo,ReviewRepo>();
 builder.Services.AddScoped<IShoppingManager, ShoppingManger>();
 builder.Services.AddScoped<IShoppingCartRepo, ShoppingCartRepo>();
+builder.Services.AddScoped<ICouponManager, CouponManager>();
+builder.Services.AddScoped<ICouponRepo, CouponRepo>();
 
 
 builder.Services.AddScoped<IAccountManger, AccountManger>();
@@ -58,7 +62,10 @@ builder.Services.AddAuthentication(option =>
     };
 });
 
+builder.Services.AddScoped<IMemoryCache, MemoryCache>();
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

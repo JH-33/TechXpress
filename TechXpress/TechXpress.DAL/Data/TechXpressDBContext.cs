@@ -48,6 +48,8 @@ namespace TechXpress.DAL.Data
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Payment> Payment { get; set; }
+        public DbSet<Coupon> Coupons { get; set; }
+        
 
     }
 }

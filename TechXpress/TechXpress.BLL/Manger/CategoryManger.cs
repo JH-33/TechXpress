@@ -1,45 +1,69 @@
 ﻿using TechXpress.BLL.DTO.AccountDto;
 using TechXpress.DAL.Data.Models;
 using TechXpress.DAL.Repository;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace TechXpress.BLL.Manger
 {
     public class CategoryManger : ICategoryManger
     {
         private readonly ICategoryrepo categoryrepo;
+        private readonly IMemoryCache _CategoryCache;
+        private const string _OurCache = "Category_Cache";
 
-        public CategoryManger(ICategoryrepo _categoryrepo)
+        public CategoryManger(ICategoryrepo _categoryrepo, IMemoryCache CatCache)
         {
             categoryrepo = _categoryrepo;
+            _CategoryCache = CatCache;
         }
         public void Delete( int id)
         {
             var model = categoryrepo.GetById(id);
             categoryrepo.Delete(model);
             SaveChanges();
-            
+
         }
 
         public IEnumerable<CategoryDto> GetAll()
         {
-            var model1 = categoryrepo.GetAll();
-            var categorydto = model1.Select(a => new CategoryDto
-            {
-                Id = a.Id,
-                CategoryName = a.CategoryName,
-            }).ToList();
+            if(!_CategoryCache.TryGetValue(_OurCache, out IEnumerable<CategoryDto> categoryDto))
+            { 
+                var model1 = categoryrepo.GetAll();
+                var categorydto = model1.Select(a => new CategoryDto
+                {
+                    Id = a.Id,
+                    CategoryName = a.CategoryName,
+                }).ToList();
 
-            return categorydto;
+                MemoryCacheEntryOptions cachingOptions = new MemoryCacheEntryOptions()
+                {
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1)
+                };
+            }
+           
+            return categoryDto;
         }
 
         public CategoryDto GetById(int id)
         {
-            var model2 = categoryrepo.GetById(id);
-            CategoryDto categoryDto = new CategoryDto()
+            if (!_CategoryCache.TryGetValue(_OurCache, out CategoryDto categoryDto))
             {
-                Id = model2.Id,
-                CategoryName=model2.CategoryName,
-            };
+                     var model2 = categoryrepo.GetById(id);
+
+                     categoryDto = new CategoryDto
+                    {
+                        Id = model2.Id,
+                        CategoryName=model2.CategoryName,
+                    };
+
+                    MemoryCacheEntryOptions cachingOptions = new MemoryCacheEntryOptions()
+                    {
+                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1)
+                    };
+
+                    _CategoryCache.Set($"{_OurCache}_{id}", categoryDto);
+            }
+             
             return categoryDto;
         }
 
@@ -72,10 +96,13 @@ namespace TechXpress.BLL.Manger
         public void Update(CategoryDto categoryDto)
         {
             var model4 = categoryrepo.GetById(categoryDto.Id);
+           
             model4.CategoryName = categoryDto.CategoryName;
             model4.Id = categoryDto.Id;
+           
             categoryrepo.Update(model4);
             SaveChanges();
+
 
         }
     }

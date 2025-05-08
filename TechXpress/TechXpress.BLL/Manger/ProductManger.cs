@@ -32,7 +32,7 @@ namespace TechXpress.BLL.Manger
               Price=a.Price,
               StockQuantity=a.StockQuantity,
               categoryid=a.categoryid
-            });
+            }).ToList();
             return modelread;
         }
         
