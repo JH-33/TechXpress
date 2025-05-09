@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TechXpress.DAL.Data.Models
 {
-    public class Payment
+    public class Payment : baseEntity
     {
         [Key]
         public int PaymentID { get; set; }

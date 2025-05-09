@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TechXpress.DAL.Data.Models
 {
-    public class ShoppingCart
+    public class ShoppingCart : baseEntity
     {
         [Key] 
         public int ShoppingCart_ID { get; set; }

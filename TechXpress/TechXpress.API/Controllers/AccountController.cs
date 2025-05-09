@@ -60,6 +60,7 @@ namespace TechXpress.API.Controllers
             }
             return NoContent();
         }
+
         [HttpPut("UpdateProfile/{UserId)}")]
         public async Task<ActionResult<bool>> UpdateProfile(Profiledto profiledto, string UserId)
         {

@@ -1,0 +1,32 @@
+﻿@model List<TechXpressMVC.DTOs.ProductReadDto>
+
+<h2>All Products</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Id</th>
+            <th>Price</th>
+            <th>StockQuantity</th>
+            <th>Description</th>
+            <th>Category</th>
+            <!-- Add more fields if needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductId</td>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.StockQuantity</td>
+                <td>@item.ProductDescription</td>
+                <td>@item.categoryid</td>
+            </tr>
+
+           
+        }
+    </tbody>
+</table>

@@ -28,7 +28,7 @@ namespace TechXpress.API.Controllers
                 return NotFound();
             return Ok(review);
         }
-        [HttpGet("ByProduct/{productid}")]
+        [HttpGet("ReviewsByProduct/{productid}")]
         public ActionResult GetReviewsByProductIdAsync(int productid)
         {
 
@@ -38,7 +38,7 @@ namespace TechXpress.API.Controllers
             return Ok(review);
         }
 
-        [HttpGet("GetByProduct/{productId}")]
+        [HttpGet("GetReviewCount/{productId}")]
         public ActionResult GetReviewCount(int productid)
         {
 

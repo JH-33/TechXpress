@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TechXpress.DAL.Data.Models
 {
-    public class Coupon
+    public class Coupon : baseEntity
     {
         [Key]
         public string? Code { get; set; }

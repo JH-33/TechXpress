@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TechXpress.DAL.Data.Models
 {
-    public class Order
+    public class Order : baseEntity
     {
         [Key]
         public int OrderID { get; set; }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace TechXpress.DAL.Data.Models
 {
-    public class Category
+    public class Category : baseEntity
     {
         [Key]        
        
