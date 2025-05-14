@@ -1,5 +1,5 @@
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using TechXpressMVC.Models;
 
 namespace TechXpressMVC.Controllers
@@ -28,5 +28,6 @@ namespace TechXpressMVC.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        
     }
 }

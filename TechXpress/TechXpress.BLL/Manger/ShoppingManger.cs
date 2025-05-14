@@ -8,13 +8,13 @@ namespace TechXpress.BLL.Manger
     {
         private readonly IShoppingCartRepo shoppingCartRepo;
         private readonly IProductRepo productRepo;
-        
+        private readonly IDiscountRepo discountRepo;
 
-        public ShoppingManger(IShoppingCartRepo _shoppingCartRepo,IProductRepo _productRepo)
+        public ShoppingManger(IShoppingCartRepo _shoppingCartRepo,IProductRepo _productRepo,IDiscountRepo _discountRepo)
         {
             shoppingCartRepo = _shoppingCartRepo;
             productRepo = _productRepo;
-           
+            discountRepo = _discountRepo;
         }
 
         public void AddProductToCart(int cartId, int productId,ShoppingAddDto shoppingAddDto)
@@ -39,30 +39,6 @@ namespace TechXpress.BLL.Manger
             }
 
             }
-
-        public OrderReadDto Checkout(int cartId)
-        {
-            var cart = shoppingCartRepo.GetById(cartId);
-            if(cart==null||cart.NumberofItems==0)
-            {
-                throw new Exception("cart is empty");
-            }
-            var order = new OrderReadDto
-            {
-         OrderDate =cart.CreatedDate,
-        TotalAmountToPay=cart.Products.Sum(a=>a.Price),
-        Order_Status= "Pending",
-        Shipping_Address=cart.User?.Address,
-        UserID=cart.UserID,
-        ShoppingCart_ID=cart.ShoppingCart_ID
-            };
-            return order;
-
-            
-        }
-
-        
-
         public void CreateShoppingCart(ShoppingAddDto shoppingAddDto)
         {
             var initialcart = shoppingCartRepo.GetAllShoppingCarts().FirstOrDefault(a=>a.UserID==shoppingAddDto.UserID);
@@ -85,13 +61,13 @@ namespace TechXpress.BLL.Manger
             var cart = shoppingCartRepo.GetAllShoppingCarts();
             var cartread = cart.Select(cart => new ShoppingCartReadDto
             {
-                ShoppingCart_ID = cart.ShoppingCart_ID,
+                ShoppingCart_ID = cart.Id,
                 NumberofItems = cart.NumberofItems,
                 CreatedDate = cart.CreatedDate,
                 UserID = cart.UserID,
                 Products = cart.Products.Select(p => new ProductReadDto
                 {
-                    ProductId = p.ProductId,
+                    ProductId = p.Id,
                     ProductName = p.ProductName,
                     Price = p.Price
                 }).ToList()
@@ -105,13 +81,13 @@ namespace TechXpress.BLL.Manger
             if (cart == null) return (null);
             var cartreadid = new ShoppingCartReadDto
             {
-                ShoppingCart_ID = cart.ShoppingCart_ID,
+                ShoppingCart_ID = cart.Id,
                 NumberofItems = cart.NumberofItems,
                 CreatedDate = cart.CreatedDate,
                 UserID = cart.UserID,
                 Products = cart.Products.Select(p => new ProductReadDto
                 {
-                    ProductId = p.ProductId,
+                    ProductId = p.Id,
                     ProductName = p.ProductName,
                     Price = p.Price
                 }).ToList()
@@ -123,7 +99,7 @@ namespace TechXpress.BLL.Manger
         {
             var cart = shoppingCartRepo.GetById(cartId);
             if (cart == null) { throw new Exception("not find cart"); }
-            var product = cart.Products.FirstOrDefault(a => a.ProductId == productId);
+            var product = cart.Products.FirstOrDefault(a => a.Id == productId);
             if (product == null) { throw new Exception("not find product"); }
             cart.Products.Remove(product);
             cart.NumberofItems = cart.Products.Count;
@@ -151,6 +127,38 @@ namespace TechXpress.BLL.Manger
             shoppingCartRepo.Update(cart);
             
         }
+        
+          public void ApplyDiscount(int cartid, string discountcode, string userid)
+        {
+            var cart = shoppingCartRepo.GetById(cartid);
+            if(cart==null)
+            { throw new Exception("cart not found"); }
+            var discount = discountRepo.GetByCode(discountcode);
+            if(discount==null)
+            { throw new Exception("discountCode invailed"); }
+            cart.TotalAmount -= cart.TotalAmount * (discount.Percentage / 100);
+            shoppingCartRepo.Update(cart);
+            shoppingCartRepo.SaveChanges();
+            
+        }
 
+        public OrderReadDto Checkout(int cartId, string userId)
+        {
+            var cart = shoppingCartRepo.GetById(cartId);
+            if (cart == null || cart.NumberofItems == 0)
+            {
+                throw new Exception("cart is empty");
+            }
+            var order = new OrderReadDto
+            {
+                OrderDate = cart.CreatedDate,
+                TotalAmountToPay = cart.Products.Sum(a => a.Price),
+                Order_Status = "Pending",
+                Shipping_Address = cart.User?.Address,
+                UserID = cart.UserID,
+                ShoppingCart_ID = cart.Id
+            };
+            return order;
+        }
     }
 }

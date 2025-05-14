@@ -1,16 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Net.Http.Headers;
 using TechXpress.BLL.DTO.AccountDto;
-using TechXpressMVC.DTOs;
+using System.Text.Json;
 
 namespace TechXpressMVC.Controllers
 {
     public class AccountController : Controller
     {
         private readonly HttpClient _httpClient;
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public AccountController(HttpClient httpClient)
         {
@@ -18,49 +15,100 @@ namespace TechXpressMVC.Controllers
             _httpClient.BaseAddress = new Uri("https://localhost:7011");
         }
 
-
-        [HttpGet("{Id}")]
-        public async Task<ActionResult> GetProfilebyid(int Id)
-        {
-            var response = await _httpClient.GetFromJsonAsync<Profiledto>($"/api/Account/Getprofilebyid/{Id}");
-            return Ok(response);
-        }
-
+        public IActionResult Index() => View();
+        public IActionResult Login() => View();
+        public IActionResult Register() => View();
 
         [HttpPost]
-        public async Task<ActionResult> Login(LoginDto logDto)
+        public async Task<IActionResult> Login(LoginDto logDto)
         {
-            var response = await _httpClient.PostAsJsonAsync<LoginDto>($"/api/Account/Login", logDto);
-            response.EnsureSuccessStatusCode();
+            var response = await _httpClient.PostAsJsonAsync("/api/Account/Login", logDto);
+            if (!response.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError("", "Login failed");
+                return View();
+            }
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            var token = await response.Content.ReadAsStringAsync();
+            HttpContext.Session.SetString("JWToken", token);
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
-        public async Task<ActionResult> Register(RegisterDto regDto)
+        public async Task<IActionResult> Register(RegisterDto regDto)
         {
-            var response = await _httpClient.PostAsJsonAsync<RegisterDto>($"/api/Account/Register", regDto);
-            response.EnsureSuccessStatusCode();
+            var response = await _httpClient.PostAsJsonAsync("/api/Account/Register", regDto);
+            if (!response.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError("", "Registration failed");
+                return View();
+            }
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("Login");
         }
 
-        [HttpPut("{UserId}")]
-        public async Task<ActionResult> UpdateProfile(string UserId, Profiledto profDto)
+        [HttpGet]
+        public async Task<IActionResult> GetProfile()
         {
-            var response = await _httpClient.PutAsJsonAsync<Profiledto>($"/api/Account/UpdateProfile/{UserId}", profDto);
-            response.EnsureSuccessStatusCode();
+            var token = HttpContext.Session.GetString("JWToken");
+            if (string.IsNullOrEmpty(token)) return RedirectToAction("Login");
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _httpClient.GetAsync("/api/Account/GetProfile");
+            if (!response.IsSuccessStatusCode) return View("Error");
+
+            var profile = await response.Content.ReadFromJsonAsync<Profiledto>();
+            return View(profile);
         }
 
-        [HttpDelete("{UserId}")]
-        public async Task<ActionResult> DeleteProfile(string UserId)
+        [HttpPost]
+        public async Task<IActionResult> UpdateProfile(Profiledto profDto)
         {
-            var response = await _httpClient.DeleteAsync($"/api/Account/DeleteProfile/{UserId}");
-            response.EnsureSuccessStatusCode();
+            var token = HttpContext.Session.GetString("JWToken");
+            if (string.IsNullOrEmpty(token)) return RedirectToAction("Login");
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _httpClient.PutAsJsonAsync("/api/Account/UpdateProfile", profDto);
+            if (!response.IsSuccessStatusCode) return View("Error");
+
+            return RedirectToAction("GetProfile");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> DeleteProfile()
+        {
+            var token = HttpContext.Session.GetString("JWToken");
+            if (string.IsNullOrEmpty(token)) return RedirectToAction("Login");
+
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _httpClient.DeleteAsync("/api/Account/DeleteProfile");
+            if (!response.IsSuccessStatusCode) return View("Error");
+
+            HttpContext.Session.Remove("JWToken");
+            return RedirectToAction("Login");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AssignRole(AssignRoleDto dto)
+        {
+            var token = HttpContext.Session.GetString("JWToken");
+            if (string.IsNullOrEmpty(token)) return RedirectToAction("Login");
+
+            _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await _httpClient.PostAsJsonAsync("/api/Account/AssignRoleToUser", dto);
+            if (!response.IsSuccessStatusCode) return View("Error");
+
+            return RedirectToAction("GetProfile");
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("JWToken");
+            return RedirectToAction("Login");
         }
     }
 }

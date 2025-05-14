@@ -26,7 +26,7 @@ namespace TechXpress.BLL.Manger
             var modelreadfromdatabase = productRepo.GetAll();
             var modelread = modelreadfromdatabase.Select(a => new ProductReadDto
             {
-              ProductId = a.ProductId,
+              ProductId = a.Id,
               ProductName=a.ProductName,
               ProductDescription=a.ProductDescription,
               Price=a.Price,
@@ -42,7 +42,7 @@ namespace TechXpress.BLL.Manger
             if (modelreadfromdatabase == null) return null;
             var modeldto = new ProductReadDto()
             {
-                ProductId = modelreadfromdatabase.ProductId,
+                ProductId = modelreadfromdatabase.Id,
                 ProductName=modelreadfromdatabase.ProductName,
                 ProductDescription=modelreadfromdatabase.ProductDescription,
                 Price=modelreadfromdatabase.Price,
@@ -58,7 +58,7 @@ namespace TechXpress.BLL.Manger
             if (modelreadfromdatabase == null) return null;
             var modeldto = new ProductReadDto()
             {
-                ProductId = modelreadfromdatabase.ProductId,
+                ProductId = modelreadfromdatabase.Id,
                 ProductName = modelreadfromdatabase.ProductName,
                 ProductDescription = modelreadfromdatabase.ProductDescription,
                 Price = modelreadfromdatabase.Price,
@@ -96,5 +96,33 @@ namespace TechXpress.BLL.Manger
         productRepo.Update(model);
             productRepo.SaveChanges();
         }
+        public int UpdateStockQuantity(int productId, int quantityChange, bool isIncrease)
+        {
+            var product = productRepo.GetById(productId);
+            if (product == null)
+                throw new Exception("Product not found");
+
+            var currentStock = product.StockQuantity ?? 0;
+
+            if (!isIncrease)
+            {
+                // خصم من المخزون
+                if (currentStock < quantityChange)
+                    throw new Exception("Quantity not enough");
+                currentStock -= quantityChange;
+            }
+            else
+            {
+                // إضافة للمخزون
+                currentStock += quantityChange;
+            }
+
+            product.StockQuantity = currentStock;
+            productRepo.Update(product);
+            productRepo.SaveChanges();
+
+            return currentStock;
+        }
+
     }
 }

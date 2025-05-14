@@ -9,8 +9,8 @@ namespace TechXpress.DAL.Data.Models
 {
     public class Review : baseEntity
     {
-        [Key]
-        public int? ReviewId { get; set; }
+        
+        //public int? Id { get; set; }
         public string? ReviewDescription { get; set; }
         public int? Rating { get; set; } //on a scale of 1 to 5 with 1 'star' being the worst and 5 'stars' being the best
         

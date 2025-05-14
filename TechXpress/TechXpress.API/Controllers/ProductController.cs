@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TechXpress.BLL.DTO;
 using TechXpress.BLL.Manger;
 
@@ -14,44 +15,46 @@ namespace TechXpress.API.Controllers
         {
             productManger = _productManger;
         }
-        [HttpGet("Product")]
-        public ActionResult GetAllProduct()
+
+        [HttpGet]
+        public ActionResult GetAll()
         {
             return Ok(productManger.GetAll());
         }
-        [HttpGet("Product/{Id}")]
+
+        [HttpGet("{Id}")]
         public ActionResult GetById(int Id)
         {
-
             var product = productManger.GetById(Id);
             if (product == null)
                 return NotFound();
             return Ok(product);
         }
 
-        [HttpGet("GetProduct/{Name}")]
+        [HttpGet("ByName/{Name}")]
         public ActionResult GetByName(string Name)
         {
-
             var product = productManger.GetByName(Name);
             if (product == null)
                 return NotFound();
             return Ok(product);
         }
-
-        [HttpGet("GetBestProduct/{Name}")]
+        [HttpGet("GetBestProduct")]
         public ProductAddDto GetFastSellingProduct(List<ProductAddDto> product)
         {
             return product.OrderBy(p => p.StockQuantity).FirstOrDefault();
         }
 
-        [HttpPost("AddProduct")]
+        [Authorize(Roles = "Admin")]
+        [HttpPost]
         public ActionResult AddProduct(ProductAddDto productAdd)
         {
             productManger.Insert(productAdd);
             return NoContent();
         }
-        [HttpPut("UpdateProduct/{Id}")]
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("{Id}")]
         public ActionResult UpdateProduct(int Id, ProductUpdateDto productUpdate)
         {
             if (Id != productUpdate.ProductId)
@@ -60,11 +63,28 @@ namespace TechXpress.API.Controllers
             productManger.Update(productUpdate);
             return NoContent();
         }
-        [HttpDelete("DeleteProduct{Id}")]
+
+        [Authorize(Roles = "Admin")]
+        [HttpDelete("{Id}")]
         public ActionResult Delete(int Id)
         {
             productManger?.Delete(Id);
             return NoContent();
+        }
+
+        [Authorize(Roles = "Admin")]
+        [HttpPost("UpdateStock")]
+        public IActionResult UpdateStock(int productId, int quantity, bool isIncrease)
+        {
+            try
+            {
+                var remaining = productManger.UpdateStockQuantity(productId, quantity, isIncrease);
+                return Ok(new { message = $"Inventory updated. Remaining: {remaining}" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { error = ex.Message });
+            }
         }
     }
 }

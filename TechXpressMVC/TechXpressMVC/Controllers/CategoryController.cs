@@ -1,16 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
-using TechXpressMVC.DTOs;
+﻿using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Mvc;
+using TechXpress.BLL.DTO.AccountDto;
 
 namespace TechXpressMVC.Controllers
 {
     public class CategoryController : Controller
     {
         private readonly HttpClient _httpClient;
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public CategoryController(HttpClient httpClient)
         {
@@ -18,56 +14,80 @@ namespace TechXpressMVC.Controllers
             _httpClient.BaseAddress = new Uri("https://localhost:7011");
         }
 
-        [HttpGet]
+        private void AddJwtHeader()
+        {
+            var token = HttpContext.Session.GetString("JWToken");
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
 
-        public async Task<ActionResult> GetAll()
+        public async Task<IActionResult> Index()
         {
             var response = await _httpClient.GetFromJsonAsync<List<CategoryDto>>("/api/Category");
-            return Ok(response);
+            return View(response);
         }
 
-        [HttpGet("{Id}")]
-        public async Task<ActionResult> GetBy(int Id)
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<CategoryDto>($"/api/Category/GetBy{Id}");
-            return Ok(response);
+            var response = await _httpClient.GetFromJsonAsync<CategoryDto>($"/api/Category/{id}");
+            return View(response);
         }
 
-        [HttpGet("{Name}")]
-        public async Task<ActionResult> GetByName(string Name)
+        [HttpGet]
+        public async Task<IActionResult> GetByName(string name)
         {
-            var response = await _httpClient.GetFromJsonAsync<CategoryDto>($"/api/Category/GetName{Name}");
-            return Ok(response);
+            var response = await _httpClient.GetFromJsonAsync<CategoryDto>($"/api/Category/ByName/{name}");
+            return View("Details", response);
         }
 
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
 
         [HttpPost]
-        public async Task<ActionResult> Insert(CategoryDto categoryDto)
+        public async Task<IActionResult> Create(CategoryDto categoryDto)
         {
-            var response = await _httpClient.PostAsJsonAsync<CategoryDto>($"/api/Category", categoryDto);
-            response.EnsureSuccessStatusCode();
+            AddJwtHeader();
+            var response = await _httpClient.PostAsJsonAsync("/api/Category", categoryDto);
+            if (!response.IsSuccessStatusCode)
+                return View("Error");
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("Index");
         }
 
-
-        [HttpPut("{Id}")]
-        public async Task<ActionResult> Update(int Id, CategoryDto categoryDto)
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
         {
-            var response = await _httpClient.PutAsJsonAsync<CategoryDto>($"/api/Category/{Id}", categoryDto);
-            response.EnsureSuccessStatusCode();
-
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            var response = await _httpClient.GetFromJsonAsync<CategoryDto>($"/api/Category/{id}");
+            return View(response);
         }
 
-        [HttpDelete("{Id}")]
-        public async Task<ActionResult> Delete(int Id)
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, CategoryDto categoryDto)
         {
-            var response = await _httpClient.DeleteAsync($"/api/Category/{Id}");
-            response.EnsureSuccessStatusCode();
+            if (id != categoryDto.Id) return BadRequest("ID mismatch.");
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            AddJwtHeader();
+            var response = await _httpClient.PutAsJsonAsync($"/api/Category/{id}", categoryDto);
+            if (!response.IsSuccessStatusCode) return View("Error");
+
+            return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            AddJwtHeader();
+            var response = await _httpClient.DeleteAsync($"/api/Category/{id}");
+            if (!response.IsSuccessStatusCode) return View("Error");
+
+            return RedirectToAction("Index");
+        }
     }
+
 }

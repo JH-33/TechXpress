@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TechXpress.DAL.Data;
 using TechXpress.DAL.Data.Models;
-using TechXpress.DAL.Migrations;
+//using TechXpress.DAL.Migrations;
 
 namespace TechXpress.DAL.Repository
 {

@@ -1,15 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TechXpressMVC.DTOs;
+using TechXpress.BLL.DTO;
+//using TechXpressMVC.DTOs;
 
 namespace TechXpressMVC.Controllers
 {
     public class ProductController : Controller
     {
         private readonly HttpClient _httpClient;
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public ProductController(HttpClient httpClient)
         {
@@ -17,62 +14,88 @@ namespace TechXpressMVC.Controllers
             _httpClient.BaseAddress = new Uri("https://localhost:7011");
         }
 
+        // Main view
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        // Get all products
         [HttpGet]
-
-        public async Task<ActionResult> GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var response = await _httpClient.GetFromJsonAsync<List<ProductReadDto>>("/api/Product/Product");
-            return Ok(response);
+            var response = await _httpClient.GetFromJsonAsync<List<ProductReadDto>>("/api/Product");
+            return View("ProductList", response); // You can change to "return Ok(response);" if not using Views
         }
 
-        [HttpGet("{Id}")]
-        public async Task<ActionResult> GetById(int Id)
+        // Get product by ID
+        [HttpGet]
+        public async Task<IActionResult> GetById(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<ProductReadDto>($"/api/Product/Product/{Id}");
-            return Ok(response);
+            var product = await _httpClient.GetFromJsonAsync<ProductReadDto>($"/api/Product/{id}");
+            return View("Details", product);
         }
 
-        [HttpGet("{Name}")]
-        public async Task<ActionResult> GetByName(string Name)
+        // Get product by Name
+        [HttpGet]
+        public async Task<IActionResult> GetByName(string name)
         {
-            var response = await _httpClient.GetFromJsonAsync<ProductReadDto>($"/api/Product/GetProduct/{Name}");
-            return Ok(response);
+            var product = await _httpClient.GetFromJsonAsync<ProductReadDto>($"/api/Product/ByName/{name}");
+            return View("Details", product);
         }
 
-        [HttpGet("{Name}")]
-        public async Task<ActionResult> GetFastSellingProduct(string Name)
-        {
-            var response = await _httpClient.GetFromJsonAsync<ProductReadDto>($"/api/Product/GetBestProduct/{Name}");
-            return Ok(response);
-        }
-
+        // Get best-selling product (based on least stock)
         [HttpPost]
-        public async Task<ActionResult> AddProduct(ProductAddDto productAddDto)
+        public async Task<IActionResult> GetBestProduct(List<ProductAddDto> products)
         {
-            var response = await _httpClient.PostAsJsonAsync<ProductAddDto>($"/api/Product/AddProduct", productAddDto);
+            var response = await _httpClient.PostAsJsonAsync("/api/Product/GetBestProduct", products);
             response.EnsureSuccessStatusCode();
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            var best = await response.Content.ReadFromJsonAsync<ProductAddDto>();
+            return View("BestProduct", best);
         }
 
-
-        [HttpPut("{Id}")]
-        public async Task<ActionResult> UpdateProduct(int Id, ProductUpdateDto doctorUpdateDto)
+        // Add new product
+        [HttpPost]
+        public async Task<IActionResult> Add(ProductAddDto productDto)
         {
-            var response = await _httpClient.PutAsJsonAsync<ProductUpdateDto>($"/api/Product/UpdateProduct/{Id}", doctorUpdateDto);
+            var response = await _httpClient.PostAsJsonAsync("/api/Product", productDto);
             response.EnsureSuccessStatusCode();
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("Index");
         }
 
-        [HttpDelete("{Id}")]
-        public async Task<ActionResult> Delete(int Id)
+        // Update product
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, ProductUpdateDto productDto)
         {
-            var response = await _httpClient.DeleteAsync($"/api/Product/DeleteProduct/{Id}");
+            var response = await _httpClient.PutAsJsonAsync($"/api/Product/{id}", productDto);
             response.EnsureSuccessStatusCode();
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("Index");
         }
 
+        // Delete product
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var response = await _httpClient.DeleteAsync($"/api/Product/{id}");
+            response.EnsureSuccessStatusCode();
+
+            return RedirectToAction("Index");
+        }
+
+        // Update product stock quantity
+        [HttpPost]
+        public async Task<IActionResult> UpdateStock(int productId, int quantity, bool isIncrease)
+        {
+            var requestUri = $"/api/Product/UpdateStock?productId={productId}&quantity={quantity}&isIncrease={isIncrease}";
+            var response = await _httpClient.PostAsync(requestUri, null); // no body
+            response.EnsureSuccessStatusCode();
+
+            var result = await response.Content.ReadAsStringAsync();
+            ViewBag.Message = result;
+            return View("StockUpdated");
+        }
     }
 }

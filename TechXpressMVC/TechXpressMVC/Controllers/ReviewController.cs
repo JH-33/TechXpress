@@ -1,15 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using TechXpressMVC.DTOs;
+using TechXpress.BLL.DTO;
+//using TechXpressMVC.DTOs;
 
 namespace TechXpressMVC.Controllers
 {
     public class ReviewController : Controller
     {
         private readonly HttpClient _httpClient;
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public ReviewController(HttpClient httpClient)
         {
@@ -17,62 +14,72 @@ namespace TechXpressMVC.Controllers
             _httpClient.BaseAddress = new Uri("https://localhost:7011");
         }
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        // Get all reviews
         [HttpGet]
-
-        public async Task<ActionResult> GetAllReviews()
+        public async Task<IActionResult> GetAllReviews()
         {
-            var response = await _httpClient.GetFromJsonAsync<List<ReviewReadDto>>("/api/Review/GetAllReviews");
-            return Ok(response);
+            var reviews = await _httpClient.GetFromJsonAsync<List<ReviewReadDto>>("/api/Review/GetAllReviews");
+            return View("ReviewList", reviews);
         }
 
-        [HttpGet("{Id}")]
-        public async Task<ActionResult> GetById(int Id)
+        // Get review by ID
+        [HttpGet]
+        public async Task<IActionResult> GetById(int id)
         {
-            var response = await _httpClient.GetFromJsonAsync<ReviewReadDto>($"/api/Review/GetById/{Id}");
-            return Ok(response);
+            var review = await _httpClient.GetFromJsonAsync<ReviewReadDto>($"/api/Review/GetById/{id}");
+            return View("ReviewDetails", review);
         }
 
-        [HttpGet("{productId}")]
-        public async Task<ActionResult> GetReviewsByProductIdAsyn(int productId)
+        // Get all reviews for a product
+        [HttpGet]
+        public async Task<IActionResult> GetReviewsByProductId(int productId)
         {
-            var response = await _httpClient.GetFromJsonAsync<ReviewReadDto>($"/api/Review/ReviewsByProduct/{productId}");
-            return Ok(response);
+            var reviews = await _httpClient.GetFromJsonAsync<List<ReviewReadDto>>($"/api/Review/ReviewsByProduct/{productId}");
+            return View("ProductReviews", reviews);
         }
 
-
-        [HttpGet("{productId}")]
-        public async Task<ActionResult> GetReviewCount(int productId)
+        // Get number of reviews for a product
+        [HttpGet]
+        public async Task<IActionResult> GetReviewCount(int productId)
         {
-            var response = await _httpClient.GetFromJsonAsync<ReviewReadDto>($"/api/Review/GetReviewCount/{productId}");
-            return Ok(response);
+            var count = await _httpClient.GetFromJsonAsync<int>($"/api/Review/GetReviewCount/{productId}");
+            ViewBag.Count = count;
+            return View("ReviewCount");
         }
 
-        [HttpPost("{productId}")]
-        public async Task<ActionResult> InsertReview(int productId, ReviewAddDto reviewDto)
+        // Insert a review
+        [HttpPost]
+        public async Task<IActionResult> InsertReview(int productId, ReviewAddDto reviewDto)
         {
-            var response = await _httpClient.PostAsJsonAsync<ReviewAddDto>($"/api/Review/InsertReview/{productId}", reviewDto);
+            var response = await _httpClient.PostAsJsonAsync($"/api/Review/InsertReview/{productId}", reviewDto);
             response.EnsureSuccessStatusCode();
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("GetReviewsByProductId", new { productId });
         }
 
-
-        [HttpPut("{Id}")]
-        public async Task<ActionResult> UpdateReview(int Id, ReviewUpdateDto reviewDto)
+        // Update a review
+        [HttpPost]
+        public async Task<IActionResult> UpdateReview(int id, ReviewUpdateDto reviewDto)
         {
-            var response = await _httpClient.PutAsJsonAsync<ReviewUpdateDto>($"/api/Review/UpdateReview/{Id}", reviewDto);
+            var response = await _httpClient.PutAsJsonAsync($"/api/Review/UpdateReview/{id}", reviewDto);
             response.EnsureSuccessStatusCode();
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("GetById", new { id });
         }
 
-        [HttpDelete("{Id}")]
-        public async Task<ActionResult> Delete(int Id)
+        // Delete a review
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
         {
-            var response = await _httpClient.DeleteAsync($"/api/Review/DeleteReview/{Id}");
+            var response = await _httpClient.DeleteAsync($"/api/Review/DeleteReview/{id}");
             response.EnsureSuccessStatusCode();
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            return RedirectToAction("GetAllReviews");
         }
     }
 }

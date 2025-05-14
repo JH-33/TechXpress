@@ -4,10 +4,11 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechXpress.DAL.Data.Models;
 
 namespace TechXpress.BLL.DTO.AccountDto
 {
-    public class Profiledto
+    public class Profiledto:baseEntity
     {
         public string Name { get; set; }
 

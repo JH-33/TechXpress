@@ -9,12 +9,13 @@ namespace TechXpress.DAL.Data.Models
 {
     public class Product : baseEntity
     {
-        [Key]
-        public int ProductId { get; set; }
+       
+        //public int Id { get; set; }
         public int? StockQuantity { get; set; }
         public string? ProductName { get; set; }
         public string? ProductDescription { get; set; }
-        public int? Price { get; set; }
+        public string image { get; set; }
+        public decimal ? Price { get; set; }
 
         public ICollection<ApplicationUser>? User { get; set; }
         public ICollection<Review>? Reviews { get; set; }

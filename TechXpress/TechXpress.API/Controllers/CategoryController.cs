@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TechXpress.BLL.DTO.AccountDto;
 using TechXpress.BLL.Manger;
 
@@ -8,54 +9,63 @@ namespace TechXpress.API.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private readonly ICategoryManger categoryManger;
+        private readonly ICategoryManger _categoryManger;
 
-        public CategoryController(ICategoryManger _categoryManger)
+        public CategoryController(ICategoryManger categoryManger)
         {
-            categoryManger = _categoryManger;
+            _categoryManger = categoryManger;
         }
+
         [HttpGet]
         public ActionResult GetAll()
         {
-            return Ok(categoryManger.GetAll());
-        }
-        [HttpGet("GetBy{Id}")]
-        public ActionResult GetById(int Id)
-        {
-            return Ok(categoryManger.GetById(Id));
+            return Ok(_categoryManger.GetAll());
         }
 
+        [HttpGet("{Id}")]
+        public ActionResult GetById(int Id)
+        {
+            var category = _categoryManger.GetById(Id);
+            if (category == null)
+                return NotFound();
+
+            return Ok(category);
+        }
+
+        [HttpGet("ByName/{name}")]
+        public ActionResult GetByName(string name)
+        {
+            var category = _categoryManger.GetByName(name);
+            if (category == null)
+                return NotFound();
+
+            return Ok(category);
+        }
+
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult Insert(CategoryDto categoryDto)
         {
-            categoryManger.Insert(categoryDto);
+            _categoryManger.Insert(categoryDto);
             return NoContent();
         }
 
-        [HttpGet("GetName{Name}")]
-        //public ActionResult GetByName(string Name)
-        //{
-
-        //    //var product = CategoryManger.GetByName(a =>  a.Name);
-        //    //if (product == null)
-        //    //    return NotFound();
-        //    //return Ok(product);
-        //}
-  
-
+        [Authorize(Roles = "Admin")]
         [HttpPut("{Id}")]
         public ActionResult Update(int Id, CategoryDto categoryDto)
         {
             if (Id != categoryDto.Id)
-                return BadRequest();
+                return BadRequest("ID mismatch.");
 
-            categoryManger.Update(categoryDto);
+            _categoryManger.Update(categoryDto);
             return NoContent();
         }
+
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{Id}")]
         public ActionResult Delete(int Id)
         {
-            categoryManger?.Delete(Id);
+            _categoryManger.Delete(Id);
             return NoContent();
         }
     }

@@ -9,8 +9,8 @@ namespace TechXpress.DAL.Data.Models
 {
     public class Order : baseEntity
     {
-        [Key]
-        public int OrderID { get; set; }
+        
+        //public int Id { get; set; }
         public DateTime OrderDate { get; set; }
         public int? TotalAmountToPay { get; set; }
         public string? Order_Status { get; set; }

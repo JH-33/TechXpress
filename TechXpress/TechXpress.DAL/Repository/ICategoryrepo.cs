@@ -5,7 +5,7 @@ using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using TechXpress.DAL.Data.Models;
-using TechXpress.DAL.Migrations;
+//using TechXpress.DAL.Migrations;
 
 namespace TechXpress.DAL.Repository
 {
@@ -13,7 +13,7 @@ namespace TechXpress.DAL.Repository
     {
         IQueryable<Category> GetAll();
         Category GetById(int id);
-        //Category GetByName(string name);
+        Category GetByName(string name);
         void Insert(Category category);
         void Update(Category category);
         void Delete(Category category);

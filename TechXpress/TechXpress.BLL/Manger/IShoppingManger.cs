@@ -18,7 +18,8 @@ namespace TechXpress.BLL.Manger
             void RemoveShoppingCart(int cartId);
             void AddProductToCart(int cartId, int productId,ShoppingAddDto shoppingAddDto );
             void RemoveProductFromCart(int cartId, int productId);
-           OrderReadDto Checkout(int cartId);
+           OrderReadDto Checkout(int cartId, string userId);
+        void ApplyDiscount(int cartid, string discount,string userid);
         }
 
     

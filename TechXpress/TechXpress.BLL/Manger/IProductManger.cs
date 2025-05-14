@@ -16,5 +16,6 @@ namespace TechXpress.BLL.Manger
         void Insert(ProductAddDto productAdd);
         void Update(ProductUpdateDto productUpdate);
         void Delete(int id);
+        int UpdateStockQuantity(int productId, int quantityChange, bool isIncrease);
     }
 }

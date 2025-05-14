@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TechXpress.BLL.DTO;
 using TechXpress.BLL.Manger;
 using TechXpress.DAL.Data.Models;
@@ -24,6 +25,7 @@ namespace TechXpress.API.Controllers
                 return NotFound();
             return Ok(payment);
         }
+        [Authorize(Roles = "Admin")]
 
         [HttpPost]
         public ActionResult Insert(PaymentAddDto paymentAdd)
@@ -31,6 +33,7 @@ namespace TechXpress.API.Controllers
             paymentManger.Insert(paymentAdd);
             return NoContent();
         }
+        [Authorize(Roles = "Admin")]
         [HttpPut("{Id}")]
         public ActionResult Update(int Id, PaymentUpdateDto paymentUpdate)
         {
@@ -40,6 +43,7 @@ namespace TechXpress.API.Controllers
             paymentManger.Update(paymentUpdate);
             return NoContent();
         }
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{Id}")]
         public ActionResult Delete(int Id)
         {

@@ -1,4 +1,4 @@
-namespace TechXpressMVC.Models
+﻿namespace TechXpressMVC.Models
 {
     public class ErrorViewModel
     {

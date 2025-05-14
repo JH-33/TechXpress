@@ -44,7 +44,7 @@ namespace TechXpress.BLL.Manger
             var ReviewdDto = data.Select(a => new ReviewReadDto
             {
                 ReviewDescription = a.ReviewDescription,
-                ReviewId = a.ReviewId,
+                ReviewId = a.Id,
                 Rating = a.Rating,
                 UserID = a.UserID,
                 ProductID = a.ProductID
@@ -60,7 +60,7 @@ namespace TechXpress.BLL.Manger
             var reviewreaddto = new ReviewReadDto
                 {
                 ReviewDescription = data.ReviewDescription,
-                ReviewId = data.ReviewId,
+                ReviewId = data.Id,
                 Rating = data.Rating,
                 UserID = data.UserID,
                 ProductID = data.ProductID
@@ -77,7 +77,7 @@ namespace TechXpress.BLL.Manger
             var reviewreaddto = data .Select(a=>new ReviewReadDto
             {
                 ReviewDescription = a.ReviewDescription,
-                ReviewId = a.ReviewId,
+                ReviewId = a.Id,
                 Rating = a.Rating,
                 UserID = a.UserID,
                 ProductID = a.ProductID

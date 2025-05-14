@@ -1,56 +1,123 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using TechXpressMVC.DTOs;
+﻿using System.Net.Http.Headers;
+using Microsoft.AspNetCore.Mvc;
+using TechXpress.BLL.DTO;
+//using TechXpressMVC.DTOs;
 
 namespace TechXpressMVC.Controllers
 {
     public class PaymentController : Controller
     {
         private readonly HttpClient _httpClient;
+
+        public PaymentController(HttpClient httpClient)
+        {
+            _httpClient = httpClient;
+            _httpClient.BaseAddress = new Uri("https://localhost:7011"); // Set the base address of the API
+        }
+
+        // Optional: If you are using JWT authentication
+        private void AddJwtHeader()
+        {
+            var token = HttpContext.Session.GetString("JWToken");
+            if (!string.IsNullOrEmpty(token))
+            {
+                _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+        }
+
+        // Show main page (index)
         public IActionResult Index()
         {
             return View();
         }
 
-        public PaymentController(HttpClient httpClient)
+        // Get payment by ID
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
         {
-            _httpClient = httpClient;
-            _httpClient.BaseAddress = new Uri("https://localhost:7011");
+            AddJwtHeader();
+            var payment = await _httpClient.GetFromJsonAsync<PaymentReadDto>($"/api/Payment/{id}");
+
+            if (payment == null)
+                return View("NotFound");
+
+            return View("Details", payment); // View: Views/Payment/Details.cshtml
         }
 
-
-        [HttpGet("{Id}")]
-        public async Task<ActionResult> GetById(int Id)
+        // Show form for creating payment
+        [HttpGet]
+        public IActionResult Create()
         {
-            var response = await _httpClient.GetFromJsonAsync<PaymentReadDto>($"/api/Payment/{Id}");
-            return Ok(response);
+            return View(); // View: Views/Payment/Create.cshtml
         }
 
+        // Submit a new payment
         [HttpPost]
-        public async Task<ActionResult> Insert(PaymentAddDto payDto)
+        public async Task<IActionResult> Create(PaymentAddDto payDto)
         {
-            var response = await _httpClient.PostAsJsonAsync<PaymentAddDto>($"/api/Payment", payDto);
-            response.EnsureSuccessStatusCode();
+            AddJwtHeader();
+            var response = await _httpClient.PostAsJsonAsync("/api/Payment", payDto);
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            if (!response.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError("", "Failed to create payment.");
+                return View(payDto);
+            }
+
+            return RedirectToAction("Index");
         }
 
-
-        [HttpPut("{Id}")]
-        public async Task<ActionResult> Update(int Id, PaymentUpdateDto payDto)
+        // Show form for updating a payment
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
         {
-            var response = await _httpClient.PutAsJsonAsync<PaymentUpdateDto>($"/api/Payment/{Id}", payDto);
-            response.EnsureSuccessStatusCode();
+            AddJwtHeader();
+            var payment = await _httpClient.GetFromJsonAsync<PaymentReadDto>($"/api/Payment/{id}");
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            if (payment == null)
+                return View("NotFound");
+
+            // Map to PaymentUpdateDto if needed
+            return View("Edit", payment); // View: Views/Payment/Edit.cshtml
         }
 
-        [HttpDelete("{Id}")]
-        public async Task<ActionResult> Delete(int Id)
+        // Submit payment update
+        [HttpPost]
+        public async Task<IActionResult> Edit(int id, PaymentUpdateDto payDto)
         {
-            var response = await _httpClient.DeleteAsync($"/api/Payment/{Id}");
-            response.EnsureSuccessStatusCode();
+            AddJwtHeader();
+            if (id != payDto.PaymentID)
+            {
+                ModelState.AddModelError("", "ID mismatch.");
+                return View(payDto);
+            }
 
-            return Ok(response.Content.ReadAsStringAsync().IsCompletedSuccessfully);
+            var response = await _httpClient.PutAsJsonAsync($"/api/Payment/{id}", payDto);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                ModelState.AddModelError("", "Failed to update payment.");
+                return View(payDto);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        // Delete payment
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            AddJwtHeader();
+            var response = await _httpClient.DeleteAsync($"/api/Payment/{id}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                TempData["Error"] = "Failed to delete payment.";
+                return RedirectToAction("Index");
+            }
+
+            TempData["Success"] = "Payment deleted successfully.";
+            return RedirectToAction("Index");
         }
     }
 }

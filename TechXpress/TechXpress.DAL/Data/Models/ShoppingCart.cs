@@ -10,10 +10,10 @@ namespace TechXpress.DAL.Data.Models
 {
     public class ShoppingCart : baseEntity
     {
-        [Key] 
-        public int ShoppingCart_ID { get; set; }
+        //public int Id { get; set; }
         public int NumberofItems { get; set; }
         public DateTime? CreatedDate { get; set; }= DateTime.UtcNow;
+        public decimal TotalAmount { get; set; } 
         public string? UserID { get; set; }
         public ApplicationUser? User { get; set; }
 

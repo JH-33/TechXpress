@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TechXpress.BLL.DTO;
 using TechXpress.BLL.Manger;
 
@@ -47,13 +48,16 @@ namespace TechXpress.API.Controllers
                 return NotFound();
             return Ok(count);
         }
+        [Authorize(Roles = "customer")]
 
         [HttpPost("InsertReview/{productId}")]
         public ActionResult InsertReview(int productId,ReviewAddDto reviewAddDto)
         {
+            
             reviewManger.AddReviewToProduct(productId,reviewAddDto);
             return NoContent();
         }
+        [Authorize(Roles = "customer")]
         [HttpPut("UpdateReview/{Id}")]
         public ActionResult UpdateReview(int Id, ReviewUpdateDto reviewUpdateDto)
         {
@@ -63,6 +67,7 @@ namespace TechXpress.API.Controllers
             reviewManger.UpdateReview(Id,reviewUpdateDto);
             return NoContent();
         }
+        [Authorize(Roles = "Admin")]
         [HttpDelete("DeleteReview/{Id}")]
         public ActionResult DeleteReview(int Id)
         {

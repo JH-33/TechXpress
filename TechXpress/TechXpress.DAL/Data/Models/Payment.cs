@@ -9,8 +9,8 @@ namespace TechXpress.DAL.Data.Models
 {
     public class Payment : baseEntity
     {
-        [Key]
-        public int PaymentID { get; set; }
+        
+        //public int Id { get; set; }
         public string? PaymentType { get; set; }
         public int? PaymentAmount { get; set; }
         public string? PaymentDate { get; set; }

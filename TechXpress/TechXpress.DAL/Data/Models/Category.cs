@@ -10,9 +10,8 @@ namespace TechXpress.DAL.Data.Models
 {
     public class Category : baseEntity
     {
-        [Key]        
-       
-        public int Id { get; set; }
+                
+       // public int Id { get; set; }
 
         [Required]
         public string CategoryName { get; set; }

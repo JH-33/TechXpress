@@ -27,7 +27,7 @@ namespace TechXpress.BLL.Manger
             if (modelread == null) return null;
             var modelreaddro = new PaymentReadDto()
             {
-                PaymentID = modelread.PaymentID,
+                PaymentID = modelread.Id,
                 PaymentType=modelread.PaymentType,
                 PaymentAmount=modelread.PaymentAmount,
                 PaymentDate=modelread.PaymentDate,

@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 using TechXpress.BLL.DTO;
-using TechXpress.BLL.DTO.AccountDto;
 using TechXpress.BLL.Manger;
-using TechXpress.DAL.Data.Models;
 
 namespace TechXpress.API.Controllers
 {
@@ -16,27 +16,39 @@ namespace TechXpress.API.Controllers
         {
             orderManger = _orderManger;
         }
+
+        [Authorize]
         [HttpGet]
         public ActionResult GetAll()
         {
             return Ok(orderManger.GetAll());
         }
+
+        [Authorize]
         [HttpGet("{Id}")]
         public ActionResult GetById(int Id)
         {
-
             var order = orderManger.GetById(Id);
             if (order == null)
                 return NotFound();
+
             return Ok(order);
         }
 
+        [Authorize]
         [HttpPost]
         public ActionResult Insert(OrderAddDto orderAddDto)
         {
+            var userId = User.FindFirstValue("uid");
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized("User not found.");
+
+            orderAddDto.UserID = userId;
             orderManger.Insert(orderAddDto);
             return NoContent();
         }
+
+        [Authorize(Roles = "Admin")]
         [HttpPut("{Id}")]
         public ActionResult Update(int Id, OrderUpdateDto orderUpdateDto)
         {
@@ -46,6 +58,8 @@ namespace TechXpress.API.Controllers
             orderManger.Update(orderUpdateDto);
             return NoContent();
         }
+
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{Id}")]
         public ActionResult Delete(int Id)
         {

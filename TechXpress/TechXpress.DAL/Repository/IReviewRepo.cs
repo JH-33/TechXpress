@@ -15,5 +15,6 @@ namespace TechXpress.DAL.Repository
         void Update(Review review);
         void Delete(Review review);
         IQueryable<Review>GetReviewsByProductIdAsync(int productId);
+        
     }
 }

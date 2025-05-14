@@ -29,3 +29,38 @@ E:\TechXpress Project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\refint\TechXp
 E:\TechXpress Project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.pdb
 E:\TechXpress Project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.genruntimeconfig.cache
 E:\TechXpress Project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\ref\TechXpressMVC.dll
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.AssemblyInfoInputs.cache
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.AssemblyInfo.cs
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.csproj.CoreCompileInputs.cache
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.MvcApplicationPartsAssemblyInfo.cache
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.RazorAssemblyInfo.cache
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.RazorAssemblyInfo.cs
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.sourcelink.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.dll
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\refint\TechXpressMVC.dll
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.pdb
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\appsettings.Development.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\appsettings.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.staticwebassets.runtime.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.staticwebassets.endpoints.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.exe
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.deps.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.runtimeconfig.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.dll
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.pdb
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\scopedcss\bundle\TechXpressMVC.styles.css
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\scopedcss\projectbundle\TechXpressMVC.bundle.scp.css
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.build.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.development.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.TechXpressMVC.Microsoft.AspNetCore.StaticWebAssets.props
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.TechXpressMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.TechXpressMVC.props
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TechXpressMVC.props
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TechXpressMVC.props
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.pack.json
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.genruntimeconfig.cache
+D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\ref\TechXpressMVC.dll

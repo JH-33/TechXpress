@@ -30,7 +30,7 @@ namespace TechXpress.DAL.Repository
         {
             return context.ShoppingCarts
                 .Include(c => c.Products)
-                .FirstOrDefault(sc => sc.ShoppingCart_ID == cartId);
+                .FirstOrDefault(sc => sc.Id == cartId);
         }
 
         public void RemoveShoppingCart(ShoppingCart shoppingCart)

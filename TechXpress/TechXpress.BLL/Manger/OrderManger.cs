@@ -25,7 +25,7 @@ namespace TechXpress.BLL.Manger
             var modelread = orderrepo.GetAll();
             var orderread = modelread.Select(a => new OrderReadDto
             {
-                OrderID = a.OrderID,
+                OrderID = a.Id,
                 OrderDate = a.OrderDate,
                 TotalAmountToPay = a.TotalAmountToPay,
                 Order_Status = a.Order_Status,
@@ -42,7 +42,7 @@ namespace TechXpress.BLL.Manger
             var modelget = orderrepo.GetById(id);
             var orderreaddto = new OrderReadDto()
             {
-                OrderID = modelget.OrderID,
+                OrderID = modelget.Id,
                 OrderDate = modelget.OrderDate,
                 TotalAmountToPay = modelget.TotalAmountToPay,
                 Order_Status = modelget.Order_Status,

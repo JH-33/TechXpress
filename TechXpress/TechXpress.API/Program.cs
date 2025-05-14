@@ -36,8 +36,9 @@ builder.Services.AddScoped<IReviewManger, ReviewManger>();
 builder.Services.AddScoped<IReviewRepo,ReviewRepo>();
 builder.Services.AddScoped<IShoppingManager, ShoppingManger>();
 builder.Services.AddScoped<IShoppingCartRepo, ShoppingCartRepo>();
-builder.Services.AddScoped<ICouponManager, CouponManager>();
-builder.Services.AddScoped<ICouponRepo, CouponRepo>();
+builder.Services.AddScoped<IDiscountManager, DiscountManager>();
+builder.Services.AddScoped<IDiscountRepo, DiscountRepo>();
+
 
 
 builder.Services.AddScoped<IAccountManger, AccountManger>();
