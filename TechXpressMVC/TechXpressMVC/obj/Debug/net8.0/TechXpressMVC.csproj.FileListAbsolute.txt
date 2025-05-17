@@ -64,3 +64,38 @@ D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticweba
 D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.genruntimeconfig.cache
 D:\تدريب\TechXpress\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\ref\TechXpressMVC.dll
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\appsettings.Development.json
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\appsettings.json
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.staticwebassets.runtime.json
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.staticwebassets.endpoints.json
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.exe
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.deps.json
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.runtimeconfig.json
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.dll
+G:\depii project\TechXpressMVC\TechXpressMVC\bin\Debug\net8.0\TechXpressMVC.pdb
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.GeneratedMSBuildEditorConfig.editorconfig
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.AssemblyInfoInputs.cache
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.AssemblyInfo.cs
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.csproj.CoreCompileInputs.cache
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.MvcApplicationPartsAssemblyInfo.cache
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.RazorAssemblyInfo.cache
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.RazorAssemblyInfo.cs
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.sourcelink.json
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\scopedcss\bundle\TechXpressMVC.styles.css
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\scopedcss\projectbundle\TechXpressMVC.bundle.scp.css
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.build.json
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.development.json
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.TechXpressMVC.Microsoft.AspNetCore.StaticWebAssets.props
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.TechXpressMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.build.TechXpressMVC.props
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TechXpressMVC.props
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TechXpressMVC.props
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.pack.json
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.dll
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\refint\TechXpressMVC.dll
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.pdb
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\TechXpressMVC.genruntimeconfig.cache
+G:\depii project\TechXpressMVC\TechXpressMVC\obj\Debug\net8.0\ref\TechXpressMVC.dll
