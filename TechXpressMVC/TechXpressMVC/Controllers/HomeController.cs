@@ -30,6 +30,19 @@ namespace TechXpressMVC.Controllers
         {
             return View();
         }
+        public IActionResult Checkout()
+        {
+            return View();
+        }
+        public ActionResult Sign_In()
+        {
+            return View();
+        }
+        public ActionResult Sign_Up()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

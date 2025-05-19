@@ -3280,13 +3280,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TechXpressMVC.lkd13rqcg2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 23:22:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 13:15:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TechXpressMVC/TechXpressMVC.lkd13rqcg2.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TechXpressMVC.lkd13rqcg2.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lkd13rqcg2"},{"Name":"integrity","Value":"sha256-9cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8="},{"Name":"label","Value":"_content/TechXpressMVC/TechXpressMVC.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 23:22:57 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 19 May 2025 13:15:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TechXpressMVC/wallpaper.jpeg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\wallpaper.jpeg'))</AssetFile>
