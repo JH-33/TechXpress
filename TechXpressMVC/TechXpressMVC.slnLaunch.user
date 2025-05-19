@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "TechXpressMVC\\TechXpressMVC.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TechXpress\\TechXpress.API\\TechXpress.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TechXpress\\TechXpress.BLL\\TechXpress.BLL.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\TechXpress\\TechXpress.DAL\\TechXpress.DAL.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
