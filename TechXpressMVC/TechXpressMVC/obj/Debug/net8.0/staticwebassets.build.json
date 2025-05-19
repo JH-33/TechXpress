@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f/MwxCgs9MJyXX7hAHFDQZkm/y1uC+sTusky0xk9Jd4=",
+  "Hash": "pyrb7Jqp2jlapOCAdHtydXSxwUILP7Y9Vz5fFjGGkyE=",
   "Source": "TechXpressMVC",
   "BasePath": "_content/TechXpressMVC",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechXpressMVC.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\AirPods.jpg",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "AirPods#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qk0ajhitz7",
+      "Integrity": "ali+p0ZseVgboP9VyaC4W2GrvYAey6h9VEI6dj/Ueu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AirPods.jpg"
     },
     {
       "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\css\\ajax-loader.gif",
@@ -220,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "cy9khrfhlm",
+      "Integrity": "ZJzSMA/F74V7OkAVTPdZutXkdCRI1JOejZb1ChdEP64=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -288,6 +309,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\vendor.css"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Electronic-Accessories.jpg",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "Electronic-Accessories#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iiwoknoy4j",
+      "Integrity": "mgqlXn+xGq0K4qlgX3vu9GDKbYWziZkz/D6ZZb+nm94=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Electronic-Accessories.jpg"
     },
     {
       "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\favicon.ico",
@@ -3650,6 +3692,48 @@
       "OriginalItemSpec": "wwwroot\\mail\\jqBootstrapValidation.min.js"
     },
     {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\P&L.webp",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "P&L#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yrz5ezf8zj",
+      "Integrity": "opFNvpMyjj7J4geMTY2fWNeBvuYNMTxeHe+9PplOQBc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\P&L.webp"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\s.jpg",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "s#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yibkengawt",
+      "Integrity": "WoHdOF17yTZI2KXEnbVPJT782400Zzf5BLSKOWj6mZw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\s.jpg"
+    },
+    {
       "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "SourceId": "TechXpressMVC",
       "SourceType": "Discovered",
@@ -5561,6 +5645,111 @@
       "OriginalItemSpec": "wwwroot\\scss\\style.scss"
     },
     {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\SmartPhones.png",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "SmartPhones#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r46kqph3xr",
+      "Integrity": "9XW1JhB8tjnH72hTiazBVfWjhSGGX9V+nUgOHxNiZA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SmartPhones.png"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\spe.jpg",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "spe#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kvyp3jlms8",
+      "Integrity": "MKQUSrjrZ3KhVgAAVdQ9nHlKr2d11q4Lhng0yk2CVrg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\spe.jpg"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Special.jpg",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "Special#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pim939kwhf",
+      "Integrity": "vz6qypimGpKFUJj+MBc+ec1ZOMQ7uXZovpHSLP6XSsE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Special.jpg"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\specialoff.png",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "specialoff#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3f2xes2rzx",
+      "Integrity": "gdexneA0PwSQgMjLCuX5/0kjRqkGuznqEi7hc1uWtc0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\specialoff.png"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\special-offer.png",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "special-offer#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b0nl8ln52m",
+      "Integrity": "RWwoqU7PAY7WNJ+iD2FfX3J8837PEygb2xabNPyb7fc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\special-offer.png"
+    },
+    {
       "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\style.css",
       "SourceId": "TechXpressMVC",
       "SourceType": "Discovered",
@@ -5575,14 +5764,159 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j3bvvemw0p",
-      "Integrity": "Ed8CEnBLL2Hzat2TKXTFkL++x7qHtWhvsA+7HNQ9JyQ=",
+      "Fingerprint": "vyup2u37w6",
+      "Integrity": "B9NNIrA2Cr9ariHunGudlyI1U3laZ56ZW9/89N8eelE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style.css"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Tablet.webp",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "Tablet#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3jwkoltob8",
+      "Integrity": "rz0rGBh5tg40JyPTYzjDWCpl3CGZysXVveSeA4Gsg7s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Tablet.webp"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wallpaper.jpeg",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "wallpaper#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u0yi839930",
+      "Integrity": "Qr+66yHBHHLF8JpPVKigexiyJPFWUTRmt44sqTU5n1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\wallpaper.jpeg"
+    },
+    {
+      "Identity": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wearble-tech.webp",
+      "SourceId": "TechXpressMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\",
+      "BasePath": "_content/TechXpressMVC",
+      "RelativePath": "wearble-tech#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "194n780vbg",
+      "Integrity": "u0NyfUF2tGKxzghD7+wx39eBP5kuQWFJGGev3e9h1v0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\wearble-tech.webp"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "AirPods.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\AirPods.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ali+p0ZseVgboP9VyaC4W2GrvYAey6h9VEI6dj/Ueu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:06:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ali+p0ZseVgboP9VyaC4W2GrvYAey6h9VEI6dj/Ueu8="
+        }
+      ]
+    },
+    {
+      "Route": "AirPods.qk0ajhitz7.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\AirPods.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ali+p0ZseVgboP9VyaC4W2GrvYAey6h9VEI6dj/Ueu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:06:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qk0ajhitz7"
+        },
+        {
+          "Name": "label",
+          "Value": "AirPods.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ali+p0ZseVgboP9VyaC4W2GrvYAey6h9VEI6dj/Ueu8="
+        }
+      ]
+    },
     {
       "Route": "css/ajax-loader.fypy1n2a1i.gif",
       "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\css\\ajax-loader.gif",
@@ -6158,51 +6492,6 @@
       ]
     },
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 23:22:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -6213,7 +6502,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "2154"
         },
         {
           "Name": "Content-Type",
@@ -6221,11 +6510,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"ZJzSMA/F74V7OkAVTPdZutXkdCRI1JOejZb1ChdEP64=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 23:22:57 GMT"
+          "Value": "Sun, 18 May 2025 23:56:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6235,7 +6524,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-ZJzSMA/F74V7OkAVTPdZutXkdCRI1JOejZb1ChdEP64="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.cy9khrfhlm.css",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZJzSMA/F74V7OkAVTPdZutXkdCRI1JOejZb1ChdEP64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 23:56:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cy9khrfhlm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZJzSMA/F74V7OkAVTPdZutXkdCRI1JOejZb1ChdEP64="
         }
       ]
     },
@@ -6482,6 +6816,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-vl/a0YhuSh+1EeDx5HisCK0VQKwMy5ppZ26U/45zAwI="
+        }
+      ]
+    },
+    {
+      "Route": "Electronic-Accessories.iiwoknoy4j.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Electronic-Accessories.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mgqlXn+xGq0K4qlgX3vu9GDKbYWziZkz/D6ZZb+nm94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iiwoknoy4j"
+        },
+        {
+          "Name": "label",
+          "Value": "Electronic-Accessories.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mgqlXn+xGq0K4qlgX3vu9GDKbYWziZkz/D6ZZb+nm94="
+        }
+      ]
+    },
+    {
+      "Route": "Electronic-Accessories.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Electronic-Accessories.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118211"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mgqlXn+xGq0K4qlgX3vu9GDKbYWziZkz/D6ZZb+nm94=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:08:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mgqlXn+xGq0K4qlgX3vu9GDKbYWziZkz/D6ZZb+nm94="
         }
       ]
     },
@@ -19606,6 +20022,170 @@
       ]
     },
     {
+      "Route": "P&L.webp",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\P&L.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"opFNvpMyjj7J4geMTY2fWNeBvuYNMTxeHe+9PplOQBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:00:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-opFNvpMyjj7J4geMTY2fWNeBvuYNMTxeHe+9PplOQBc="
+        }
+      ]
+    },
+    {
+      "Route": "P&L.yrz5ezf8zj.webp",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\P&L.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"opFNvpMyjj7J4geMTY2fWNeBvuYNMTxeHe+9PplOQBc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:00:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrz5ezf8zj"
+        },
+        {
+          "Name": "label",
+          "Value": "P&L.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-opFNvpMyjj7J4geMTY2fWNeBvuYNMTxeHe+9PplOQBc="
+        }
+      ]
+    },
+    {
+      "Route": "s.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\s.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WoHdOF17yTZI2KXEnbVPJT782400Zzf5BLSKOWj6mZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WoHdOF17yTZI2KXEnbVPJT782400Zzf5BLSKOWj6mZw="
+        }
+      ]
+    },
+    {
+      "Route": "s.yibkengawt.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\s.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WoHdOF17yTZI2KXEnbVPJT782400Zzf5BLSKOWj6mZw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 02:13:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yibkengawt"
+        },
+        {
+          "Name": "label",
+          "Value": "s.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WoHdOF17yTZI2KXEnbVPJT782400Zzf5BLSKOWj6mZw="
+        }
+      ]
+    },
+    {
       "Route": "scss/bootstrap/scss/_alert.scss",
       "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "Selectors": [],
@@ -27068,6 +27648,416 @@
       ]
     },
     {
+      "Route": "SmartPhones.png",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\SmartPhones.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9XW1JhB8tjnH72hTiazBVfWjhSGGX9V+nUgOHxNiZA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 11:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9XW1JhB8tjnH72hTiazBVfWjhSGGX9V+nUgOHxNiZA4="
+        }
+      ]
+    },
+    {
+      "Route": "SmartPhones.r46kqph3xr.png",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\SmartPhones.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "298505"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9XW1JhB8tjnH72hTiazBVfWjhSGGX9V+nUgOHxNiZA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 11:53:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r46kqph3xr"
+        },
+        {
+          "Name": "label",
+          "Value": "SmartPhones.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9XW1JhB8tjnH72hTiazBVfWjhSGGX9V+nUgOHxNiZA4="
+        }
+      ]
+    },
+    {
+      "Route": "spe.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\spe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MKQUSrjrZ3KhVgAAVdQ9nHlKr2d11q4Lhng0yk2CVrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 00:57:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MKQUSrjrZ3KhVgAAVdQ9nHlKr2d11q4Lhng0yk2CVrg="
+        }
+      ]
+    },
+    {
+      "Route": "spe.kvyp3jlms8.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\spe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MKQUSrjrZ3KhVgAAVdQ9nHlKr2d11q4Lhng0yk2CVrg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 00:57:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kvyp3jlms8"
+        },
+        {
+          "Name": "label",
+          "Value": "spe.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MKQUSrjrZ3KhVgAAVdQ9nHlKr2d11q4Lhng0yk2CVrg="
+        }
+      ]
+    },
+    {
+      "Route": "Special.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Special.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vz6qypimGpKFUJj+MBc+ec1ZOMQ7uXZovpHSLP6XSsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 00:50:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vz6qypimGpKFUJj+MBc+ec1ZOMQ7uXZovpHSLP6XSsE="
+        }
+      ]
+    },
+    {
+      "Route": "Special.pim939kwhf.jpg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Special.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vz6qypimGpKFUJj+MBc+ec1ZOMQ7uXZovpHSLP6XSsE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 00:50:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pim939kwhf"
+        },
+        {
+          "Name": "label",
+          "Value": "Special.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vz6qypimGpKFUJj+MBc+ec1ZOMQ7uXZovpHSLP6XSsE="
+        }
+      ]
+    },
+    {
+      "Route": "specialoff.3f2xes2rzx.png",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\specialoff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdexneA0PwSQgMjLCuX5/0kjRqkGuznqEi7hc1uWtc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 01:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3f2xes2rzx"
+        },
+        {
+          "Name": "label",
+          "Value": "specialoff.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdexneA0PwSQgMjLCuX5/0kjRqkGuznqEi7hc1uWtc0="
+        }
+      ]
+    },
+    {
+      "Route": "specialoff.png",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\specialoff.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4014"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gdexneA0PwSQgMjLCuX5/0kjRqkGuznqEi7hc1uWtc0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 01:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gdexneA0PwSQgMjLCuX5/0kjRqkGuznqEi7hc1uWtc0="
+        }
+      ]
+    },
+    {
+      "Route": "special-offer.b0nl8ln52m.png",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\special-offer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RWwoqU7PAY7WNJ+iD2FfX3J8837PEygb2xabNPyb7fc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 00:48:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b0nl8ln52m"
+        },
+        {
+          "Name": "label",
+          "Value": "special-offer.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RWwoqU7PAY7WNJ+iD2FfX3J8837PEygb2xabNPyb7fc="
+        }
+      ]
+    },
+    {
+      "Route": "special-offer.png",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\special-offer.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RWwoqU7PAY7WNJ+iD2FfX3J8837PEygb2xabNPyb7fc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 00:48:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RWwoqU7PAY7WNJ+iD2FfX3J8837PEygb2xabNPyb7fc="
+        }
+      ]
+    },
+    {
       "Route": "style.css",
       "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\style.css",
       "Selectors": [],
@@ -27078,7 +28068,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23175"
+          "Value": "22456"
         },
         {
           "Name": "Content-Type",
@@ -27086,11 +28076,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ed8CEnBLL2Hzat2TKXTFkL++x7qHtWhvsA+7HNQ9JyQ=\""
+          "Value": "\"B9NNIrA2Cr9ariHunGudlyI1U3laZ56ZW9/89N8eelE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Nov 2023 19:04:34 GMT"
+          "Value": "Sun, 18 May 2025 23:42:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27100,12 +28090,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ed8CEnBLL2Hzat2TKXTFkL++x7qHtWhvsA+7HNQ9JyQ="
+          "Value": "sha256-B9NNIrA2Cr9ariHunGudlyI1U3laZ56ZW9/89N8eelE="
         }
       ]
     },
     {
-      "Route": "style.j3bvvemw0p.css",
+      "Route": "style.vyup2u37w6.css",
       "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -27115,7 +28105,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23175"
+          "Value": "22456"
         },
         {
           "Name": "Content-Type",
@@ -27123,11 +28113,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ed8CEnBLL2Hzat2TKXTFkL++x7qHtWhvsA+7HNQ9JyQ=\""
+          "Value": "\"B9NNIrA2Cr9ariHunGudlyI1U3laZ56ZW9/89N8eelE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 11 Nov 2023 19:04:34 GMT"
+          "Value": "Sun, 18 May 2025 23:42:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -27137,7 +28127,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j3bvvemw0p"
+          "Value": "vyup2u37w6"
         },
         {
           "Name": "label",
@@ -27145,7 +28135,89 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ed8CEnBLL2Hzat2TKXTFkL++x7qHtWhvsA+7HNQ9JyQ="
+          "Value": "sha256-B9NNIrA2Cr9ariHunGudlyI1U3laZ56ZW9/89N8eelE="
+        }
+      ]
+    },
+    {
+      "Route": "Tablet.3jwkoltob8.webp",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Tablet.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz0rGBh5tg40JyPTYzjDWCpl3CGZysXVveSeA4Gsg7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:03:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3jwkoltob8"
+        },
+        {
+          "Name": "label",
+          "Value": "Tablet.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rz0rGBh5tg40JyPTYzjDWCpl3CGZysXVveSeA4Gsg7s="
+        }
+      ]
+    },
+    {
+      "Route": "Tablet.webp",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Tablet.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rz0rGBh5tg40JyPTYzjDWCpl3CGZysXVveSeA4Gsg7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:03:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rz0rGBh5tg40JyPTYzjDWCpl3CGZysXVveSeA4Gsg7s="
         }
       ]
     },
@@ -27310,6 +28382,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-9cl3p476YzMQBdVCkAXhVjJvSS2mKjXrmC9yY33Szf8="
+        }
+      ]
+    },
+    {
+      "Route": "wallpaper.jpeg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wallpaper.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qr+66yHBHHLF8JpPVKigexiyJPFWUTRmt44sqTU5n1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 23:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qr+66yHBHHLF8JpPVKigexiyJPFWUTRmt44sqTU5n1Y="
+        }
+      ]
+    },
+    {
+      "Route": "wallpaper.u0yi839930.jpeg",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wallpaper.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Qr+66yHBHHLF8JpPVKigexiyJPFWUTRmt44sqTU5n1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 23:15:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0yi839930"
+        },
+        {
+          "Name": "label",
+          "Value": "wallpaper.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Qr+66yHBHHLF8JpPVKigexiyJPFWUTRmt44sqTU5n1Y="
+        }
+      ]
+    },
+    {
+      "Route": "wearble-tech.194n780vbg.webp",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wearble-tech.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u0NyfUF2tGKxzghD7+wx39eBP5kuQWFJGGev3e9h1v0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "194n780vbg"
+        },
+        {
+          "Name": "label",
+          "Value": "wearble-tech.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u0NyfUF2tGKxzghD7+wx39eBP5kuQWFJGGev3e9h1v0="
+        }
+      ]
+    },
+    {
+      "Route": "wearble-tech.webp",
+      "AssetFile": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wearble-tech.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u0NyfUF2tGKxzghD7+wx39eBP5kuQWFJGGev3e9h1v0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:05:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u0NyfUF2tGKxzghD7+wx39eBP5kuQWFJGGev3e9h1v0="
         }
       ]
     }

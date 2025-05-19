@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\TechXpressMVC.lkd13rqcg2.bundle.scp.css"
     },
     {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\AirPods.jpg",
+      "PackagePath": "staticwebassets\\AirPods.jpg"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Electronic-Accessories.jpg",
+      "PackagePath": "staticwebassets\\Electronic-Accessories.jpg"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\P&L.webp",
+      "PackagePath": "staticwebassets\\P&L.webp"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\SmartPhones.png",
+      "PackagePath": "staticwebassets\\SmartPhones.png"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Special.jpg",
+      "PackagePath": "staticwebassets\\Special.jpg"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\Tablet.webp",
+      "PackagePath": "staticwebassets\\Tablet.webp"
+    },
+    {
       "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\css\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\css\\ajax-loader.gif"
     },
@@ -689,6 +713,10 @@
       "PackagePath": "staticwebassets\\mail\\jqBootstrapValidation.min.js"
     },
     {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\s.jpg",
+      "PackagePath": "staticwebassets\\s.jpg"
+    },
+    {
       "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
       "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
     },
@@ -1053,8 +1081,28 @@
       "PackagePath": "staticwebassets\\scss\\style.scss"
     },
     {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\spe.jpg",
+      "PackagePath": "staticwebassets\\spe.jpg"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\special-offer.png",
+      "PackagePath": "staticwebassets\\special-offer.png"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\specialoff.png",
+      "PackagePath": "staticwebassets\\specialoff.png"
+    },
+    {
       "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\style.css",
       "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wallpaper.jpeg",
+      "PackagePath": "staticwebassets\\wallpaper.jpeg"
+    },
+    {
+      "Id": "G:\\depii project\\TechXpressMVC\\TechXpressMVC\\wwwroot\\wearble-tech.webp",
+      "PackagePath": "staticwebassets\\wearble-tech.webp"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TechXpressMVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

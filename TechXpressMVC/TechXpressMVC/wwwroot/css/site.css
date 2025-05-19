@@ -20,3 +20,81 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Override all yellow (Bootstrap warning) colors to #AF3E3E */
+.bg-warning,
+.text-warning,
+.btn-warning,
+.badge-warning,
+.alert-warning,
+.border-warning {
+    background-color: #AF3E3E !important;
+    color: #fff !important;
+    border-color: #AF3E3E !important;
+}
+
+.text-warning,
+.btn-warning,
+.badge-warning {
+    color: #AF3E3E !important;
+}
+
+/* Override any custom yellow color (e.g., #FFD333, #ffc107, #ff0, etc.) */
+[class*="yellow"],
+[class*="Yellow"] {
+    background-color: #AF3E3E !important;
+    color: #fff !important;
+    border-color: #AF3E3E !important;
+}
+
+/* Override common yellow hex codes */
+.bg-warning,
+.bg-yellow,
+.bg-custom-yellow,
+[style*="background-color:#FFD333"],
+[style*="background-color: #FFD333"],
+[style*="background-color:#ffc107"],
+[style*="background-color: #ffc107"] {
+    background-color: #AF3E3E !important;
+}
+
+.text-warning,
+.text-yellow,
+.text-custom-yellow,
+[style*="color:#FFD333"],
+[style*="color: #FFD333"],
+[style*="color:#ffc107"],
+[style*="color: #ffc107"] {
+    color: #AF3E3E !important;
+}
+
+/* Force override for all elements using #FFD333 as background or color */
+[style*="#FFD333"], 
+[style*="#ffc107"], 
+[style*="#FFEB3B"], 
+[style*="#ff0"], 
+.bg-warning, 
+.text-warning, 
+.text-yellow, 
+.bg-yellow, 
+.btn-warning, 
+.badge-warning, 
+.alert-warning, 
+.border-warning {
+    background-color: #AF3E3E !important;
+    color: #fff !important;
+    border-color: #AF3E3E !important;
+}
+
+.text-warning, 
+.text-yellow, 
+[style*="color:#FFD333"], 
+[style*="color: #FFD333"], 
+[style*="color:#ffc107"], 
+[style*="color: #ffc107"], 
+[style*="color:#FFEB3B"], 
+[style*="color: #FFEB3B"], 
+[style*="color:#ff0"], 
+[style*="color: #ff0"] {
+    color: #AF3E3E !important;
+}
