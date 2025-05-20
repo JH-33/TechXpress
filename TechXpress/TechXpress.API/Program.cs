@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using TechXpress.API.Controllers;
 using TechXpress.API.Middlewares;
 using TechXpress.BLL.Manger;
@@ -39,7 +40,7 @@ builder.Services.AddScoped<IShoppingCartRepo, ShoppingCartRepo>();
 builder.Services.AddScoped<IDiscountManager, DiscountManager>();
 builder.Services.AddScoped<IDiscountRepo, DiscountRepo>();
 
-
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<IAccountManger, AccountManger>();
 builder.Services.AddAuthentication(option =>
@@ -63,6 +64,32 @@ builder.Services.AddAuthentication(option =>
     };
 });
 
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Description = "JWT Authorization header using the Bearer scheme. Example: 'Bearer {token}'",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        BearerFormat = "JWT"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
+});
 builder.Services.AddScoped<IMemoryCache, MemoryCache>();
 
 var app = builder.Build();

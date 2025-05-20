@@ -14,7 +14,7 @@ namespace TechXpress.BLL.Manger
         Task<List<UserReadDto>>GetAllUser();
         Task<Profiledto> GetProfilebyid(String UserId);
         Task<bool> DeleteProfile(String UserId);
-        Task<bool> UpdateProfile(Profiledto profiledto, String UserId);
+        Task<bool> UpdateProfile(Profiledto profiledto);
         Task<string> createRole(RoleAddDto roleAddDto);
         Task<string> AssignRuleToUser(AssignRoleDto assignRoleDto);
         Task<List<RoleReadDto>> GetAllRoles( );

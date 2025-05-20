@@ -1,6 +1,7 @@
 ﻿using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -8,19 +9,24 @@ using Microsoft.IdentityModel.Tokens;
 using TechXpress.BLL.DTO.AccountDto;
 using TechXpress.DAL.Data.Models;
 
+
+
 namespace TechXpress.BLL.Manger
 {
     public class AccountManger : IAccountManger
     {
         private readonly IConfiguration _configuration; private readonly UserManager<ApplicationUser> _userManager; private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         public AccountManger(IConfiguration configuration,
                                  UserManager<ApplicationUser> userManager,
-                                 RoleManager<IdentityRole> roleManager)
+                                 RoleManager<IdentityRole> roleManager,
+            IHttpContextAccessor httpContextAccessor)
         {
             _configuration = configuration;
             _userManager = userManager;
             _roleManager = roleManager;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<string> AssignRuleToUser(AssignRoleDto assignRoleDto)
@@ -89,14 +95,35 @@ namespace TechXpress.BLL.Manger
             };
 
             var result = await _userManager.CreateAsync(user, registerDto.Password);
+            if (result.Succeeded)
+            {
+                List<Claim> claims = new List<Claim>
+                {  new Claim(ClaimTypes.NameIdentifier, user.Id),
+                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.MobilePhone, user.PhoneNumber),
+                    new Claim(ClaimTypes.StreetAddress, user.Address)
 
-            return result.Succeeded ? "Registered successfully." :
-                   string.Join("; ", result.Errors.Select(e => e.Description));
+                };
+                await _userManager.AddClaimsAsync(user, claims);
+
+                //var token = GenerateToken(claims);
+                return result.Succeeded ? "Registered successfully." :
+                   string.Join("; ", result.Errors.Select(e => e.Description)); ;
+            }
+            return null;
+
+     
         }
 
-        public async Task<bool> UpdateProfile(Profiledto profiledto, string userId)
+        public async Task<bool> UpdateProfile(Profiledto profiledto)
         {
-            var user = await _userManager.FindByIdAsync(userId);
+            
+                var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                //var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                if (userId == null)
+                    return false;
+                var user = await _userManager.FindByIdAsync(userId);
             if (user == null) throw new Exception("Profile not found");
 
             user.UserName = profiledto.Name;
@@ -105,6 +132,7 @@ namespace TechXpress.BLL.Manger
             user.Email = profiledto.Email;
 
             var result = await _userManager.UpdateAsync(user);
+
             return result.Succeeded;
         }
 

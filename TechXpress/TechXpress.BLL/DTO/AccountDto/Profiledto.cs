@@ -8,7 +8,7 @@ using TechXpress.DAL.Data.Models;
 
 namespace TechXpress.BLL.DTO.AccountDto
 {
-    public class Profiledto:baseEntity
+    public class Profiledto
     {
         public string Name { get; set; }
 

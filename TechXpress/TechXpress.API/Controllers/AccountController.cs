@@ -11,10 +11,12 @@ namespace TechXpress.API.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAccountManger _accountManager;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public AccountController(IAccountManger accountManager)
+        public AccountController(IAccountManger accountManager, IHttpContextAccessor httpContextAccessor)
         {
             _accountManager = accountManager;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         [HttpPost("Login")]
@@ -37,7 +39,7 @@ namespace TechXpress.API.Controllers
             return Ok(result);
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpGet("GetProfile")]
         public async Task<ActionResult<Profiledto>> GetProfile()
         {
@@ -52,7 +54,7 @@ namespace TechXpress.API.Controllers
             return Ok(profile);
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpDelete("DeleteProfile")]
         public async Task<IActionResult> DeleteProfile()
         {
@@ -67,22 +69,19 @@ namespace TechXpress.API.Controllers
             return NoContent();
         }
 
-        [Authorize]
+       
         [HttpPut("UpdateProfile")]
         public async Task<IActionResult> UpdateProfile(Profiledto profiledto)
         {
-            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userId == null)
-                return Unauthorized("User ID not found in token.");
-
-            var result = await _accountManager.UpdateProfile(profiledto, userId);
+           
+            var result = await _accountManager.UpdateProfile(profiledto);
             if (!result)
                 return NotFound("Profile not found or could not be updated.");
 
             return NoContent();
         }
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         [HttpPost("CreateRole")]
         public async Task<ActionResult<string>> CreateRole(RoleAddDto roleAddDto)
         {
